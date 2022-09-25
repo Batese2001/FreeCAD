@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{60F059EB-3A5C-386A-A45B-9B51ECF67404}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>MEFISTO2</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MEFISTO2.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MEFISTO2_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MEFISTO2.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MEFISTO2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MEFISTO2.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MEFISTO2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MEFISTO2.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MEFISTO2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\Driver;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/include" /Zm150 /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4068;4290;4251;4018;4800;4996;4244;4805;4806;4275;4005;4099;4101;4146;4267;4390;4503;4436</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FC_DEBUG;MEFISTO2D_EXPORTS;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;NOMINMAX;STRSAFE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLX_GLXEXT_LEGACY;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395833;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;CMAKE_INTDIR="Debug";MEFISTO2_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;FC_DEBUG;MEFISTO2D_EXPORTS;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;NOMINMAX;STRSAFE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLX_GLXEXT_LEGACY;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395833;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;CMAKE_INTDIR=\"Debug\";MEFISTO2_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\Driver;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\Driver;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MSVCRTD.lib;MSVCPRTD.lib;Rpcrt4.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\nglib_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKOffset.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKFeat.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBin.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBinL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXDESTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXDEIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMeshVS.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKRWMesh.lib;vcruntimed.lib;ucrtd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKFillet.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEPAttr.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEP209.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEPBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXSBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\ngcore_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBool.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKVCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBO.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKPrim.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKLCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKCDF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKV3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKShHealing.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKHLR.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKTopAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKGeomAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBRep.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKGeomBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKG3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKG2d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKService.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMath.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKernel.lib;wsock32.lib;psapi.lib;advapi32.lib;windowscodecs.lib;winmm.lib;gdi32.lib;user32.lib;opengl32.lib;freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/lib/Debug/MEFISTO2_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/bin/MEFISTO2_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\Driver;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/include" /Zm150 /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4068;4290;4251;4018;4800;4996;4244;4805;4806;4275;4005;4099;4101;4146;4267;4390;4503;4436</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MEFISTO2D_EXPORTS;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395833;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;CMAKE_INTDIR="Release";MEFISTO2_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MEFISTO2D_EXPORTS;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395833;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;CMAKE_INTDIR=\"Release\";MEFISTO2_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\Driver;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\Driver;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\nglib.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKSTL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKOffset.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKFeat.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKBin.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKBinL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKXDESTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKXDEIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKMeshVS.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKRWMesh.lib;vcruntime.lib;ucrt.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKFillet.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKSTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKSTEPAttr.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKSTEP209.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKSTEPBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKXSBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\ngcore.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKBool.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKXCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKVCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKBO.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKPrim.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKLCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKCDF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKV3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKMesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKShHealing.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKHLR.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKTopAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKGeomAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKBRep.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKGeomBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKG3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKG2d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKService.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKMath.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKernel.lib;wsock32.lib;psapi.lib;advapi32.lib;windowscodecs.lib;winmm.lib;gdi32.lib;user32.lib;opengl32.lib;freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/lib/Release/MEFISTO2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/bin/MEFISTO2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\Driver;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4068;4290;4251;4018;4800;4996;4244;4805;4806;4275;4005;4099;4101;4146;4267;4390;4503;4436</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MEFISTO2D_EXPORTS;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395833;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;CMAKE_INTDIR="MinSizeRel";MEFISTO2_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MEFISTO2D_EXPORTS;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395833;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;CMAKE_INTDIR=\"MinSizeRel\";MEFISTO2_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\Driver;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\Driver;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\nglib_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKOffset.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKFeat.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBin.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBinL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXDESTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXDEIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMeshVS.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKRWMesh.lib;vcruntime.lib;ucrt.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKFillet.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEPAttr.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEP209.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEPBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXSBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\ngcore_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBool.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKVCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBO.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKPrim.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKLCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKCDF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKV3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKShHealing.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKHLR.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKTopAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKGeomAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBRep.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKGeomBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKG3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKG2d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKService.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMath.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKernel.lib;wsock32.lib;psapi.lib;advapi32.lib;windowscodecs.lib;winmm.lib;gdi32.lib;user32.lib;opengl32.lib;freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/lib/MinSizeRel/MEFISTO2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/bin/MinSizeRel/MEFISTO2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\Driver;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4068;4290;4251;4018;4800;4996;4244;4805;4806;4275;4005;4099;4101;4146;4267;4390;4503;4436</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MEFISTO2D_EXPORTS;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395833;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;CMAKE_INTDIR="RelWithDebInfo";MEFISTO2_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MEFISTO2D_EXPORTS;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=395833;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;CMAKE_INTDIR=\"RelWithDebInfo\";MEFISTO2_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\Driver;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\Driver;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\..\..\..\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\nglib_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKOffset.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKFeat.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBin.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBinL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXDESTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXDEIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMeshVS.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKRWMesh.lib;vcruntime.lib;ucrt.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKFillet.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEPAttr.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEP209.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEPBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXSBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\ngcore_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBool.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKVCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBO.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKPrim.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKLCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKCDF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKV3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKShHealing.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKHLR.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKTopAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKGeomAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBRep.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKGeomBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKG3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKG2d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKService.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMath.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKernel.lib;wsock32.lib;psapi.lib;advapi32.lib;windowscodecs.lib;winmm.lib;gdi32.lib;user32.lib;opengl32.lib;freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/lib/RelWithDebInfo/MEFISTO2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/bin/RelWithDebInfo/MEFISTO2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/3rdParty/salomesmesh/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/3rdParty/salomesmesh/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/3rdParty/salomesmesh/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/3rdParty/salomesmesh/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\MEFISTO2\aptrte.cpp" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\src\MEFISTO2\trte.c" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc\Rn.h" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\3rdParty\salomesmesh\inc\aptrte.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\ZERO_CHECK.vcxproj">
+      <Project>{1D5899A6-68A2-3143-8BC0-B6A4DDD26DFD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

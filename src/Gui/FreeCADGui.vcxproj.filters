@@ -1,0 +1,2300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\FreeCADGui_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\3Dconnexion\MouseParameters.cpp">
+      <Filter>3D connexion SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\3Dconnexion\GuiAbstractNativeEvent.cpp">
+      <Filter>3D connexion SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\3Dconnexion\GuiNativeEventWin32.cpp">
+      <Filter>3D connexion SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ApplicationPy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\AutoSaver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\BitmapFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DocumentModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DocumentPyImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DocumentObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DocumentObserverPython.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ExpressionBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ExpressionBindingPy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GraphicsViewZoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ExpressionCompleter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GuiApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GuiApplicationNativeEventAware.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GuiConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Macro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MergeDocuments.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SpaceballEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PreferencePackManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Thumbnail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\WaitCursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ManualAlignment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TransactionObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\QSint\actionpanel\moc_actionbox.cpp">
+      <Filter>Widget\QSintActionPanel\Mocs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\QSint\actionpanel\moc_actionlabel.cpp">
+      <Filter>Widget\QSintActionPanel\Mocs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\QSint\actionpanel\moc_actiongroup.cpp">
+      <Filter>Widget\QSintActionPanel\Mocs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\QSint\actionpanel\moc_actionpanel.cpp">
+      <Filter>Widget\QSintActionPanel\Mocs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\QSint\actionpanel\moc_taskheader_p.cpp">
+      <Filter>Widget\QSintActionPanel\Mocs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\qrc_resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\qrc_translation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\qrc_schemes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Action.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ActionFunction.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Command.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CommandDoc.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CommandFeat.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CommandMacro.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CommandStd.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CommandWindow.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CommandTest.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CommandView.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CommandStructure.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CommandLink.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CommandPyImp.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Clipping.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DemoMode.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgActivateWindowImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCreateNewPreferencePackImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgUnitsCalculatorImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgDisplayPropertiesImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgInputDialogImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgMacroExecuteImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgRunExternal.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgEditFileIncludePropertyExternal.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgMacroRecordImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgMaterialPropertiesImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgParameterImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgParameterFind.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgPreferencePackManagementImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgProjectInformationImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgProjectUtility.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgPropertyLink.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgRevertToBackupConfigImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgExpressionInput.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskDlgRelocation.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCheckableMessageBox.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskCSysDragger.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgUndoRedo.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\InputVector.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Placement.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PropertyPage.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SceneInspector.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TextureMapping.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Transform.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DownloadItem.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DownloadManager.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DocumentRecovery.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskElementColors.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgObjectSelection.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgAddProperty.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\VectorListEditor.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgActionsImp.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCommandsImp.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCustomizeImp.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCustomizeSpaceball.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCustomizeSpNavSettings.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgKeyboardImp.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgToolbarsImp.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgWorkbenchesImp.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QListWidgetCustom.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgEditorImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgGeneralImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgOnlineHelpImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgPreferencesImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgReportViewImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettings3DViewImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsCacheDirectory.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsNavigation.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsSelection.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsUnitsImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsViewColor.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsColorGradientImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsDocumentImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsImageImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsLazyLoadedImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsMacroImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsPythonConsole.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ComboView.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DockWindow.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PropertyView.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ReportView.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SelectionView.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ToolBox.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Tree.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TreeView.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ProjectView.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DAGView\DAGView.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DAGView\DAGModel.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DAGView\DAGRectItem.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DAGView\DAGModelGraph.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DAGView\DAGFilter.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CallTips.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\EditorView.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TextDocumentEditorView.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PythonConsole.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PythonConsolePy.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PythonDebugger.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PythonEditor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SyntaxHighlighter.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TextEdit.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Assistant.cpp">
+      <Filter>Help</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\NetworkRetriever.cpp">
+      <Filter>Help</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\OnlineDocumentation.cpp">
+      <Filter>Help</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\WhatsThis.cpp">
+      <Filter>Help</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Inventor\SoDrawingGrid.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Inventor\SoAutoZoomTranslation.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Inventor\MarkerBitmaps.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Inventor\SmSwitchboard.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCBackgroundGradient.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCBoundingBox.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCColorBar.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCColorGradient.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCColorLegend.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCDB.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCInteractiveElement.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCOffscreenRenderer.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCSelection.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCUnifiedSelection.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCSelectionContext.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCSelectionAction.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCVectorizeSVGAction.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCVectorizeU3DAction.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoNavigationDragger.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoAxisCrossKit.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoTextLabel.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoTouchEvents.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoMouseWheelEvent.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCCSysDragger.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Language\Translator.cpp">
+      <Filter>Language</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\propertyeditor\PropertyEditor.cpp">
+      <Filter>Propertyeditor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\propertyeditor\PropertyItem.cpp">
+      <Filter>Propertyeditor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\propertyeditor\PropertyItemDelegate.cpp">
+      <Filter>Propertyeditor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\propertyeditor\PropertyModel.cpp">
+      <Filter>Propertyeditor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskAppearance.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskSelectLinkProperty.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskEditControl.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskView.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskDialog.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskDialogPython.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskWatcher.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\actionbox.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\actionlabel.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\actiongroup.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\actionpanel.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\actionpanelscheme.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\androidpanelscheme.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\macpanelscheme.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\taskgroup_p.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\taskheader_p.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\winvistapanelscheme.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\winxppanelscheme.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\freecadscheme.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\ContextMenu.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\DragDropHandler.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\EventFilter.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\FocusHandler.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\ImageReader.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\InputDevice.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\InteractionMode.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\Keyboard.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\KeyboardP.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\Mouse.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\NativeEvent.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\QtCoinCompatibility.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\Quarter.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\QuarterP.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\QuarterWidget.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\QuarterWidgetP.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\SensorManager.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\SignalThread.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\SoQTQuarterAdaptor.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\SpaceNavigatorDevice.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\Quarter\moc_SignalThread.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\Quarter\moc_InteractionMode.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\Quarter\moc_SensorManager.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\Quarter\moc_ContextMenu.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\Quarter\eventhandlers\moc_FocusHandler.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\Quarter\eventhandlers\moc_DragDropHandler.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\Quarter\eventhandlers\moc_EventFilter.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\Quarter\moc_QuarterWidget.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Flag.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GLBuffer.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GLPainter.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MouseSelection.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\NavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\InventorNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CADNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\RevitNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\BlenderNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MayaGestureNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\OpenCascadeNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\OpenSCADNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TinkerCADNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TouchpadNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GestureNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SplitView3DInventor.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View3DInventor.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View3DInventorExamples.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View3DInventorViewer.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View3DInventorRiftViewer.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CoinRiftWidget.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View3DPy.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View3DViewerPy.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\NaviCube.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProvider.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderExtension.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderExtensionPyImp.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderGroupExtension.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderGeoFeatureGroupExtension.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderOriginGroupExtension.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderAnnotation.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderDocumentObject.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderDocumentObjectGroup.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderDocumentObjectPyImp.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderDragger.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderExtern.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderFeature.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderGeometryObject.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderInventorObject.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderMeasureDistance.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderPyImp.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderPythonFeature.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderVRMLObject.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderBuilder.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderPlacement.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderOriginFeature.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderPlane.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderLine.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderGeoFeatureGroup.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderOriginGroup.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderPart.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderOrigin.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderMaterialObject.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderTextDocument.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderLink.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\LinkViewPyImp.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderLinkPyImp.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\AxisOriginPyImp.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\AxisOrigin.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\FileDialog.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MainWindow.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MainWindowPy.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PrefWidgets.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\InputField.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ProgressBar.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ProgressDialog.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QuantitySpinBox.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SpinBox.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Splashscreen.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PythonWrapper.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\UiLoader.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\WidgetFactory.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Widgets.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Window.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewParams.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MDIView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MDIViewPy.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GraphvizView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ActiveObjectList.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DockWindowManager.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MenuManager.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PythonWorkbenchPyImp.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ToolBarManager.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ToolBoxManager.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Workbench.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\WorkbenchFactory.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\WorkbenchManager.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\WorkbenchPyImp.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SelectionObjectPyImp.cpp">
+      <Filter>Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SelectionObject.cpp">
+      <Filter>Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Selection.cpp">
+      <Filter>Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SelectionFilter.cpp">
+      <Filter>Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PreCompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\FreeCADGui_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\FreeCADGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\FreeCADGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\3Dconnexion\I3dMouseParams.h">
+      <Filter>3D connexion SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\3Dconnexion\MouseParameters.h">
+      <Filter>3D connexion SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Namespace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_AboutApplication.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_Clipping.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DemoMode.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgActions.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgActivateWindow.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgUnitsCalculator.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgAuthorization.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgChooseIcon.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgCommands.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgCreateNewPreferencePack.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgCustomizeSpNavSettings.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgDisplayProperties.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgEditor.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgGeneral.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgInputDialog.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgKeyboard.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgMacroExecute.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgRunExternal.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgMacroRecord.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgMaterialProperties.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgOnlineHelp.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgParameter.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgParameterFind.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgPreferencePackManagement.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgPreferences.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgProjectInformation.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgProjectUtility.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgPropertyLink.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgReportView.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgRevertToBackupConfig.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgSettings3DView.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgSettingsCacheDirectory.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgSettingsNavigation.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgSettingsSelection.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgSettingsUnits.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgSettingsViewColor.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgSettingsColorGradient.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgSettingsDocument.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgSettingsImage.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgSettingsLazyLoaded.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgSettingsMacro.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgSettingsPythonConsole.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgCheckableMessageBox.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgToolbars.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgWorkbenches.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgTreeWidget.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgLocationAngle.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgLocationPos.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DocumentRecovery.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DownloadManager.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DownloadItem.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgExpressionInput.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_MouseButtons.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_SceneInspector.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_InputVector.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_Placement.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_TextureMapping.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_TaskAppearance.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_TaskSelectLinkProperty.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_TaskElementColors.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgObjectSelection.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_DlgAddProperty.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\ui_VectorListEditor.h">
+      <Filter>Uic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Action.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ActionFunction.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Command.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CommandT.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Clipping.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DemoMode.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgActivateWindowImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCreateNewPreferencePackImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgUnitsCalculatorImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgDisplayPropertiesImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgInputDialogImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgMacroExecuteImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgRunExternal.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgEditFileIncludePropertyExternal.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgMacroRecordImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgMaterialPropertiesImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgParameterImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgParameterFind.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgPreferencePackManagementImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgProjectInformationImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgProjectUtility.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgPropertyLink.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgRevertToBackupConfigImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCheckableMessageBox.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgExpressionInput.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskDlgRelocation.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskCSysDragger.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgUndoRedo.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\InputVector.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Placement.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PropertyPage.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SceneInspector.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TextureMapping.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Transform.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DownloadItem.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DownloadManager.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DocumentRecovery.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskElementColors.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgObjectSelection.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgAddProperty.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\VectorListEditor.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgActionsImp.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCommandsImp.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCustomizeImp.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCustomizeSpaceball.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCustomizeSpNavSettings.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgKeyboardImp.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgToolbarsImp.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgWorkbenchesImp.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QListWidgetCustom.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgEditorImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgGeneralImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgOnlineHelpImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgPreferencesImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgReportViewImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettings3DViewImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsCacheDirectory.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsNavigation.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsSelection.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsUnitsImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsViewColor.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsColorGradientImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsDocumentImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsImageImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsLazyLoadedImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsMacroImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsPythonConsole.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ComboView.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DockWindow.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PropertyView.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ReportView.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SelectionView.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ToolBox.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Tree.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TreeView.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ProjectView.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DAGView\DAGView.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DAGView\DAGModel.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DAGView\DAGRectItem.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DAGView\DAGModelGraph.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DAGView\DAGFilter.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CallTips.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\EditorView.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TextDocumentEditorView.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PythonConsole.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PythonConsolePy.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PythonDebugger.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PythonEditor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SyntaxHighlighter.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TextEdit.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Assistant.h">
+      <Filter>Help</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\NetworkRetriever.h">
+      <Filter>Help</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\OnlineDocumentation.h">
+      <Filter>Help</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\WhatsThis.h">
+      <Filter>Help</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Inventor\SoDrawingGrid.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Inventor\SoAutoZoomTranslation.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Inventor\MarkerBitmaps.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Inventor\SmSwitchboard.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCBackgroundGradient.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCBoundingBox.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCColorBar.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCColorGradient.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCColorLegend.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCDB.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCInteractiveElement.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCOffscreenRenderer.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCSelection.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCUnifiedSelection.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCSelectionContext.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCSelectionAction.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCVectorizeSVGAction.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCVectorizeU3DAction.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoNavigationDragger.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoAxisCrossKit.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoTextLabel.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoTouchEvents.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoMouseWheelEvent.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SoFCCSysDragger.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Language\Translator.h">
+      <Filter>Language</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\propertyeditor\PropertyEditor.h">
+      <Filter>Propertyeditor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\propertyeditor\PropertyItem.h">
+      <Filter>Propertyeditor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\propertyeditor\PropertyItemDelegate.h">
+      <Filter>Propertyeditor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\propertyeditor\PropertyModel.h">
+      <Filter>Propertyeditor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskAppearance.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskSelectLinkProperty.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskEditControl.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskView.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskDialog.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskDialogPython.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskWatcher.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\actionbox.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\actionlabel.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\actiongroup.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\actionpanel.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\actionpanelscheme.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\androidpanelscheme.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\macpanelscheme.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\taskgroup_p.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\taskheader_p.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\winvistapanelscheme.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\winxppanelscheme.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\freecadscheme.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\Basic.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\ContextMenu.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\ImageReader.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\InteractionMode.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\KeyboardP.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\NativeEvent.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\QtCoinCompatibility.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\Quarter.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\QuarterP.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\QuarterWidget.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\QuarterWidgetP.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\SensorManager.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\SignalThread.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\SoQTQuarterAdaptor.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\devices\InputDevice.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\devices\Keyboard.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\devices\Mouse.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\devices\SpaceNavigatorDevice.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\eventhandlers\DragDropHandler.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\eventhandlers\EventFilter.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Quarter\eventhandlers\FocusHandler.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Flag.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GLBuffer.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GLPainter.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MouseSelection.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\NavigationStyle.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GestureNavigationStyle.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SplitView3DInventor.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View3DInventor.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View3DInventorExamples.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View3DInventorViewer.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View3DPy.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View3DInventorRiftViewer.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CoinRiftWidget.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\View3DViewerPy.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\NaviCube.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProvider.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderExtension.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderGroupExtension.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderGeoFeatureGroupExtension.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderOriginGroupExtension.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderAnnotation.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderDocumentObject.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderDocumentObjectGroup.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderDragger.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderExtern.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderFeature.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderGeometryObject.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderInventorObject.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderMeasureDistance.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderPythonFeature.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderVRMLObject.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderBuilder.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderPlacement.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderOriginFeature.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderPlane.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderLine.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderGeoFeatureGroup.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderOriginGroup.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderPart.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderOrigin.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderMaterialObject.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderTextDocument.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderLink.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\AxisOrigin.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\FileDialog.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MainWindow.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MainWindowPy.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PrefWidgets.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\InputField.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ProgressBar.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ProgressDialog.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QuantitySpinBox.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QuantitySpinBox_p.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SpinBox.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Splashscreen.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PythonWrapper.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\UiLoader.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\WidgetFactory.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Widgets.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Window.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewParams.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MDIView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MDIViewPy.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GraphvizView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ActiveObjectList.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DockWindowManager.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MenuManager.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ToolBarManager.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ToolBoxManager.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Workbench.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\WorkbenchFactory.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\WorkbenchManager.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SelectionObject.h">
+      <Filter>Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Selection.h">
+      <Filter>Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SelectionFilter.h">
+      <Filter>Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\AutoSaver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\BitmapFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DocumentModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DocumentObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DocumentObserverPython.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ExpressionBinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ExpressionBindingPy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ExpressionCompleter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GraphicsViewZoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GuiApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GuiApplicationNativeEventAware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\3Dconnexion\GuiAbstractNativeEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\GuiConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\InventorAll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MergeDocuments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MetaTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PreCompiled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QtAll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SpaceballEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PreferencePackManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Thumbnail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\WaitCursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ManualAlignment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TransactionObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\3Dconnexion\GuiNativeEventWin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderDocumentObjectPy.xml" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderPy.xml" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderExtensionPy.xml" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\PythonWorkbenchPy.xml" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\WorkbenchPy.xml" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SelectionObjectPy.xml" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DocumentPy.xml" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\LinkViewPy.xml" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\ViewProviderLinkPy.xml" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\AxisOriginPy.xml" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CommandPy.xml" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\9ac23dafb2fd76b0ce56467700b1a327\moc_actionbox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\9ac23dafb2fd76b0ce56467700b1a327\moc_actionlabel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\9ac23dafb2fd76b0ce56467700b1a327\moc_actiongroup.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\9ac23dafb2fd76b0ce56467700b1a327\moc_actionpanel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\9ac23dafb2fd76b0ce56467700b1a327\moc_taskheader_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Icons\resource.qrc" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Language\translation.qrc" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\QSint\actionpanel\schemes.qrc" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\AboutApplication.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Clipping.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DemoMode.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgActions.ui">
+      <Filter>Dialog\Customize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgActivateWindow.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgUnitsCalculator.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgAuthorization.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgChooseIcon.ui">
+      <Filter>Dialog\Customize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCommands.ui">
+      <Filter>Dialog\Customize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCreateNewPreferencePack.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCustomizeSpNavSettings.ui">
+      <Filter>Dialog\Customize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgDisplayProperties.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgEditor.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgGeneral.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgInputDialog.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgKeyboard.ui">
+      <Filter>Dialog\Customize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgMacroExecute.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgRunExternal.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgMacroRecord.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgMaterialProperties.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgOnlineHelp.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgParameter.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgParameterFind.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgPreferencePackManagement.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgPreferences.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgProjectInformation.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgProjectUtility.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgPropertyLink.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgReportView.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgRevertToBackupConfig.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettings3DView.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsCacheDirectory.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsNavigation.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsSelection.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsUnits.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsViewColor.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsColorGradient.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsDocument.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsImage.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsLazyLoaded.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsMacro.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgSettingsPythonConsole.ui">
+      <Filter>Dialog\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgCheckableMessageBox.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgToolbars.ui">
+      <Filter>Dialog\Customize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgWorkbenches.ui">
+      <Filter>Dialog\Customize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgTreeWidget.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgLocationAngle.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgLocationPos.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DocumentRecovery.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DownloadManager.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DownloadItem.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgExpressionInput.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\MouseButtons.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SceneInspector.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\InputVector.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\Placement.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TextureMapping.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskAppearance.ui">
+      <Filter>Task View</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskSelectLinkProperty.ui">
+      <Filter>Task View</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskElementColors.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgObjectSelection.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\DlgAddProperty.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\VectorListEditor.ui">
+      <Filter>Dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\628bfc20f02213f24a345a3832acd8af\moc_SignalThread.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\628bfc20f02213f24a345a3832acd8af\moc_InteractionMode.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\628bfc20f02213f24a345a3832acd8af\moc_SensorManager.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\628bfc20f02213f24a345a3832acd8af\moc_ContextMenu.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\a8b82973d95320a1a21b6d6c883195b8\moc_FocusHandler.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\a8b82973d95320a1a21b6d6c883195b8\moc_DragDropHandler.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\a8b82973d95320a1a21b6d6c883195b8\moc_EventFilter.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\628bfc20f02213f24a345a3832acd8af\moc_QuarterWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\cc542ddc304834d28fde338a0490b727\moc_GraphvizView-internal.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\cc542ddc304834d28fde338a0490b727\moc_GraphvizView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\FreeCADGuiInit.py" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\TaskView\TaskEditControl.ui">
+      <Filter>Task View</Filter>
+    </None>
+    <None Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SelectionFilter.y">
+      <Filter>Selection</Filter>
+    </None>
+    <None Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Gui\SelectionFilter.l">
+      <Filter>Selection</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3D connexion SDK">
+      <UniqueIdentifier>{48E94FC2-2C9B-38DF-82A8-F93B26944B8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{32D7BF8B-2F9D-369B-8A1F-61ECB2509700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{5C4763BA-4924-360A-951D-71D1940E9A41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{7CEC6690-2027-3763-BA0D-DE4568A6FDEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\Customize">
+      <UniqueIdentifier>{D495BCC2-0FF4-30A8-8127-037BF1B145CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\Settings">
+      <UniqueIdentifier>{57C773D8-0C74-3475-AF5F-8060556A4845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dock Windows">
+      <UniqueIdentifier>{2DD3D6AC-309B-3397-AFD1-0E6B82E225BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{55126EE3-A100-3902-8A48-59551B45D9FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A79AE94B-2362-3FBD-9692-5CB9260B38A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help">
+      <UniqueIdentifier>{C96B1FF5-22C1-336E-87CA-0F6C4627CE8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Language">
+      <UniqueIdentifier>{57F6E8B0-BB07-3E3E-B826-A72CB6ED1A80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Propertyeditor">
+      <UniqueIdentifier>{F02E08B0-92DA-3EF9-9270-AF03A38E7255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quarter">
+      <UniqueIdentifier>{4FBE847B-8CB4-36AE-B805-DCA21F78200D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Selection">
+      <UniqueIdentifier>{537D21D2-FE1D-34E0-A000-8D587AE5D8B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CEA0781D-00C5-3B66-A896-4A3F9A247EAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task View">
+      <UniqueIdentifier>{A3F197DA-A703-331B-92E5-3A2E983486F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uic">
+      <UniqueIdentifier>{76C44723-294E-3385-A03F-1C7DA107DCFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{6D95E522-B5BE-3AD5-85A1-2581037CC547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View3D">
+      <UniqueIdentifier>{28BCEE1C-4031-303B-ACAA-1641A2DD1303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View3D\Inventor">
+      <UniqueIdentifier>{D217995B-E4B1-354B-92C0-D1F3091ECFAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View3D\Viewprovider">
+      <UniqueIdentifier>{B6D783CF-3995-37BE-8F47-00AFE51678F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget">
+      <UniqueIdentifier>{9B20DFE7-87A4-3D48-A263-63E29E42F0DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget\QSintActionPanel">
+      <UniqueIdentifier>{C5E04344-0ABC-37C8-AB98-AC2F07E3A2A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget\QSintActionPanel\Mocs">
+      <UniqueIdentifier>{098BF417-D882-327D-B243-CEF608D1FE26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Workbench">
+      <UniqueIdentifier>{6B290B3E-1FB8-3FF2-BDD4-2824D6279C73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

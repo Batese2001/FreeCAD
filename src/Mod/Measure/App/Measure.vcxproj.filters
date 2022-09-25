@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Measure\App\Measure_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Measure\App\AppMeasure.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Measure\App\Measurement.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Measure\App\PreCompiled.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Measure\App\MeasurementPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Measure\App\Measure_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Measure\App\Measure_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Measure\App\Measure_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Measure\App\Measurement.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Measure\App\PreCompiled.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Measure\App\MeasurementPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Measure\Init.py" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Measure\App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Module">
+      <UniqueIdentifier>{3B243185-DCBF-36D0-8572-103D12122E40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{6581BB3C-2238-3029-8BF9-59FDC8F7C3B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CEA0781D-00C5-3B66-A896-4A3F9A247EAF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

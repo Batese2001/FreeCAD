@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6251DC12-D481-3B36-9237-6F8B595A8083}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>StartGui</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\Start\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StartGui.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StartGui_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\Start\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">StartGui.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">StartGui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\Start\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">StartGui.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">StartGui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\Start\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">StartGui.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">StartGui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\include_Debug;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/bin/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtCore" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/./mkspecs/win32-msvc" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtXml" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWidgets" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtGui" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtANGLE" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtOpenGL" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtPrintSupport" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtSvg" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtNetwork" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtUiTools" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWinExtras" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/shiboken2" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/PySide2" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FC_DEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;NOMINMAX;STRSAFE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLX_GLXEXT_LEGACY;_OCC64;QT_CORE_LIB;QT_XML_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR="Debug";StartGui_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;FC_DEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;NOMINMAX;STRSAFE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLX_GLXEXT_LEGACY;_OCC64;QT_CORE_LIB;QT_XML_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR=\"Debug\";StartGui_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\include_Debug;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\include_Debug;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target StartGui</Message>
+      <Command>setlocal
+cd C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/CMakeFiles/StartGui_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\App\Debug\Start_d.lib;..\..\..\Gui\Debug\FreeCADGui_d.lib;..\..\..\App\Debug\FreeCADApp_d.lib;..\..\..\Base\Debug\FreeCADBase_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\xerces-c_3D.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\zlibd.lib;MSVCRTD.lib;MSVCPRTD.lib;Rpcrt4.lib;version.lib;vcruntimed.lib;ucrtd.lib;concrtd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\libs\python38_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_filesystem-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_program_options-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_regex-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_system-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_thread-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_date_time-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_chrono-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_atomic-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Xmld.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Coin4d.lib;opengl32.lib;hid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5OpenGLd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5PrintSupportd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Svgd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5UiToolsd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Widgetsd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgetsd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Guid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Cored.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgetsd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Guid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Cored.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5WinExtrasd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Guid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\pyside2_d.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\shiboken2_d.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Networkd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/Debug/StartGui_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/Start/StartGui_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\include_Release;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/bin/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtCore" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/./mkspecs/win32-msvc" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtXml" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWidgets" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtGui" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtANGLE" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtOpenGL" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtPrintSupport" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtSvg" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtNetwork" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtUiTools" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWinExtras" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/shiboken2" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/PySide2" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;_OCC64;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR="Release";StartGui_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;_OCC64;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR=\"Release\";StartGui_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\include_Release;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\include_Release;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target StartGui</Message>
+      <Command>setlocal
+cd C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/CMakeFiles/StartGui_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\App\Release\Start.lib;..\..\..\Gui\Release\FreeCADGui.lib;..\..\..\App\Release\FreeCADApp.lib;..\..\..\Base\Release\FreeCADBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\xerces-c_3.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\libs\python38.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_filesystem-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_program_options-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_regex-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_system-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_thread-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_date_time-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_chrono-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_atomic-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Xml.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Coin4.lib;opengl32.lib;hid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5OpenGL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5PrintSupport.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Svg.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5UiTools.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5WinExtras.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\pyside2.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\shiboken2.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Network.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/Release/StartGui.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/Start/StartGui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\include_MinSizeRel;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/bin/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtCore" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/./mkspecs/win32-msvc" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtXml" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWidgets" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtGui" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtANGLE" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtOpenGL" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtPrintSupport" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtSvg" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtNetwork" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtUiTools" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWinExtras" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/shiboken2" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/PySide2"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR="MinSizeRel";StartGui_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR=\"MinSizeRel\";StartGui_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\include_MinSizeRel;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\include_MinSizeRel;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target StartGui</Message>
+      <Command>setlocal
+cd C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/CMakeFiles/StartGui_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\App\MinSizeRel\Start.lib;..\..\..\Gui\MinSizeRel\FreeCADGui.lib;..\..\..\App\MinSizeRel\FreeCADApp.lib;..\..\..\Base\MinSizeRel\FreeCADBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\xerces-c_3.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\libs\python38.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_filesystem-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_program_options-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_regex-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_system-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_thread-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_date_time-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_chrono-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_atomic-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Xml.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Coin4.lib;opengl32.lib;hid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5OpenGL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5PrintSupport.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Svg.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5UiTools.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5WinExtras.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\pyside2_d.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\shiboken2_d.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Network.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/MinSizeRel/StartGui.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/Start/MinSizeRel/StartGui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\include_RelWithDebInfo;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/bin/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtCore" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/./mkspecs/win32-msvc" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtXml" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWidgets" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtGui" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtANGLE" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtOpenGL" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtPrintSupport" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtSvg" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtNetwork" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtUiTools" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWinExtras" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/shiboken2" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/PySide2"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR="RelWithDebInfo";StartGui_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR=\"RelWithDebInfo\";StartGui_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\include_RelWithDebInfo;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\include_RelWithDebInfo;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target StartGui</Message>
+      <Command>setlocal
+cd C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/CMakeFiles/StartGui_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\App\RelWithDebInfo\Start.lib;..\..\..\Gui\RelWithDebInfo\FreeCADGui.lib;..\..\..\App\RelWithDebInfo\FreeCADApp.lib;..\..\..\Base\RelWithDebInfo\FreeCADBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\xerces-c_3.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\libs\python38.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_filesystem-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_program_options-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_regex-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_system-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_thread-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_date_time-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_chrono-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_atomic-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Xml.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Coin4.lib;opengl32.lib;hid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5OpenGL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5PrintSupport.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Svg.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5UiTools.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5WinExtras.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\pyside2_d.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\shiboken2_d.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Network.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/RelWithDebInfo/StartGui.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/Start/RelWithDebInfo/StartGui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\Start.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qrc_Start.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\rcc.exe --name Start --output C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/qrc_Start.cpp C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/Resources/Start.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\icons\StartWorkbench.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\icons\preferences-start.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_af.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_de.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_fi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_fr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_it.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_nl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_no.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ru.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_uk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_pl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_hr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ja.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_hu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_tr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sv-SE.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_zh-TW.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_pt-BR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_cs.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_es-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_zh-CN.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ro.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_pt-PT.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_el.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_eu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ca.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_gl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_kab.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ko.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_fil.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_id.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_lt.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_val-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ar.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_vi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_es-AR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_bg.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ka.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\Resources\Start.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\qrc_Start.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qrc_Start.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\rcc.exe --name Start --output C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/qrc_Start.cpp C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/Resources/Start.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\icons\StartWorkbench.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\icons\preferences-start.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_af.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_de.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_fi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_fr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_it.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_nl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_no.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ru.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_uk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_pl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_hr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ja.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_hu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_tr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sv-SE.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_zh-TW.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_pt-BR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_cs.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_es-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_zh-CN.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ro.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_pt-PT.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_el.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_eu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ca.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_gl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_kab.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ko.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_fil.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_id.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_lt.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_val-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ar.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_vi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_es-AR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_bg.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ka.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\Resources\Start.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\qrc_Start.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qrc_Start.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\rcc.exe --name Start --output C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/qrc_Start.cpp C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/Resources/Start.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\icons\StartWorkbench.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\icons\preferences-start.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_af.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_de.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_fi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_fr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_it.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_nl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_no.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ru.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_uk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_pl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_hr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ja.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_hu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_tr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sv-SE.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_zh-TW.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_pt-BR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_cs.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_es-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_zh-CN.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ro.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_pt-PT.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_el.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_eu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ca.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_gl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_kab.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ko.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_fil.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_id.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_lt.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_val-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ar.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_vi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_es-AR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_bg.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ka.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\Resources\Start.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\qrc_Start.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qrc_Start.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\rcc.exe --name Start --output C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/qrc_Start.cpp C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/Resources/Start.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\icons\StartWorkbench.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\icons\preferences-start.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_af.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_de.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_fi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_fr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_it.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_nl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_no.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ru.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_uk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_pl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_hr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ja.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_hu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_tr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sv-SE.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_zh-TW.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_pt-BR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_cs.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_es-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_zh-CN.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ro.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_pt-PT.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_el.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_sl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_eu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ca.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_gl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_kab.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ko.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_fil.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_id.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_lt.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_val-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ar.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_vi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_es-AR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_bg.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\translations\StartPage_ka.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\Resources\Start.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\qrc_Start.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\DlgStartPreferences.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_DlgStartPreferences.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/ui_DlgStartPreferences.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/DlgStartPreferences.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\ui_DlgStartPreferences.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_DlgStartPreferences.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/ui_DlgStartPreferences.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/DlgStartPreferences.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\ui_DlgStartPreferences.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_DlgStartPreferences.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/ui_DlgStartPreferences.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/DlgStartPreferences.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\ui_DlgStartPreferences.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_DlgStartPreferences.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/ui_DlgStartPreferences.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/DlgStartPreferences.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\ui_DlgStartPreferences.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\icons\StartWorkbench.svg">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/Resources/icons/StartWorkbench.svg to C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/data/Mod/Start/Resources/icons/StartWorkbench.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/Resources/icons/StartWorkbench.svg C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/data/Mod/Start/Resources/icons/StartWorkbench.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\data\Mod\Start\Resources\icons\StartWorkbench.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/Resources/icons/StartWorkbench.svg to C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/data/Mod/Start/Resources/icons/StartWorkbench.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/Resources/icons/StartWorkbench.svg C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/data/Mod/Start/Resources/icons/StartWorkbench.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\data\Mod\Start\Resources\icons\StartWorkbench.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/Resources/icons/StartWorkbench.svg to C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/data/Mod/Start/Resources/icons/StartWorkbench.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/Resources/icons/StartWorkbench.svg C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/data/Mod/Start/Resources/icons/StartWorkbench.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\data\Mod\Start\Resources\icons\StartWorkbench.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/Resources/icons/StartWorkbench.svg to C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/data/Mod/Start/Resources/icons/StartWorkbench.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/Resources/icons/StartWorkbench.svg C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/data/Mod/Start/Resources/icons/StartWorkbench.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\data\Mod\Start\Resources\icons\StartWorkbench.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\Start.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\Start.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\Start.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Start/Gui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Start/Gui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Resources\Start.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\qrc_Start.cpp" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\DlgStartPreferencesImp.cpp" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\DlgStartPreferencesImp.h" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\AppStartGui.cpp" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Command.cpp" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\PreCompiled.cpp" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\PreCompiled.h" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Workbench.cpp" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Start\Gui\Workbench.h" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\ZERO_CHECK.vcxproj">
+      <Project>{1D5899A6-68A2-3143-8BC0-B6A4DDD26DFD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\App\FreeCADApp.vcxproj">
+      <Project>{D9E1B32B-6217-3196-AAB7-8C8250CDC6A6}</Project>
+      <Name>FreeCADApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Base\FreeCADBase.vcxproj">
+      <Project>{D382A700-C713-35CE-8591-4A86563D2B58}</Project>
+      <Name>FreeCADBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\FreeCADGui.vcxproj">
+      <Project>{A6E9526A-459F-3FED-B75B-D65651ADACC8}</Project>
+      <Name>FreeCADGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\App\Start.vcxproj">
+      <Project>{30D0620B-24C1-32F6-9108-DDFF8D7ABB7D}</Project>
+      <Name>Start</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

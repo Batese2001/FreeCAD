@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\FemGui_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMeshPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostPipelinePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemCcxImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemElmerImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemExportAbaqusImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemGeneralImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemGmshImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemInOutVtkImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemMaterialImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemMystranImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemZ88Imp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraint.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintOnBoundary.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintBearing.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintFixed.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintForce.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintFluidBoundary.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPressure.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintSpring.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintGear.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPulley.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintDisplacement.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintTemperature.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintHeatflux.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintInitialTemperature.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPlaneRotation.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintContact.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintTransform.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\qrc_Fem.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMesh.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMeshShape.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMeshShapeNetgen.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderAnalysis.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderSolver.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetNodes.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetElements.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetFaces.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetGeometry.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\FemSelectionGate.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraint.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintOnBoundary.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintBearing.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintFixed.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintForce.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintFluidBoundary.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPressure.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintSpring.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintGear.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPulley.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintDisplacement.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintTemperature.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintHeatflux.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintInitialTemperature.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPlaneRotation.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintContact.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintTransform.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderResult.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskDlgCreateNodeSet.cpp">
+      <Filter>Task_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskDlgMeshShapeNetgen.cpp">
+      <Filter>Task_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskDlgAnalysis.cpp">
+      <Filter>Task_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskObjectName.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskCreateNodeSet.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskDriver.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskAnalysisInfo.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskTetParameter.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskPostBoxes.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\AppFemGui.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\AppFemGuiPy.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\AbaqusHighlighter.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ActiveAnalysisObserver.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\Command.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\FemSettings.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\PreCompiled.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\PropertyFemMeshItem.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\Workbench.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostObject.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostPipeline.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostFunction.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostFilter.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\FemGui_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\FemGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\FemGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_DlgSettingsFemCcx.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_DlgSettingsFemElmer.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_DlgSettingsFemExportAbaqus.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_DlgSettingsFemGeneral.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_DlgSettingsFemGmsh.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_DlgSettingsFemInOutVtk.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_DlgSettingsFemMaterial.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_DlgSettingsFemMystran.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_DlgSettingsFemZ88.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskCreateNodeSet.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskObjectName.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraint.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraintBearing.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraintFixed.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraintForce.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraintFluidBoundary.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraintPressure.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraintDisplacement.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraintTemperature.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraintHeatflux.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraintInitialTemperature.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraintPlaneRotation.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraintContact.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraintTransform.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskFemConstraintSpring.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskTetParameter.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskAnalysisInfo.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskDriver.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskPostDisplay.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskPostClip.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskPostDataAlongLine.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskPostDataAtPoint.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskPostScalarClip.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskPostWarpVector.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_TaskPostCut.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_PlaneWidget.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\ui_SphereWidget.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemCcxImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemElmerImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemExportAbaqusImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemGeneralImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemGmshImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemInOutVtkImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemMaterialImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemMystranImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemZ88Imp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraint.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintOnBoundary.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintBearing.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintFixed.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintForce.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintFluidBoundary.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPressure.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintSpring.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintGear.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPulley.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintDisplacement.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintTemperature.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintHeatflux.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintInitialTemperature.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPlaneRotation.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintContact.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintTransform.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMesh.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMeshShape.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMeshShapeNetgen.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderAnalysis.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderSolver.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetNodes.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetElements.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetFaces.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetGeometry.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\FemSelectionGate.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraint.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintOnBoundary.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintBearing.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintFixed.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintForce.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintFluidBoundary.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPressure.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintSpring.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintGear.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPulley.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintDisplacement.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintTemperature.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintHeatflux.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintInitialTemperature.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPlaneRotation.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintContact.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintTransform.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderResult.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskDlgCreateNodeSet.h">
+      <Filter>Task_Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskDlgMeshShapeNetgen.h">
+      <Filter>Task_Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskDlgAnalysis.h">
+      <Filter>Task_Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskObjectName.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskCreateNodeSet.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskDriver.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskAnalysisInfo.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskTetParameter.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskPostBoxes.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\AbaqusHighlighter.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ActiveAnalysisObserver.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\FemSettings.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\PreCompiled.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\PropertyFemMeshItem.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\Workbench.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostObject.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostPipeline.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostFunction.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostFilter.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMeshPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostPipelinePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemCcx.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemElmer.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemExportAbaqus.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemGeneral.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemGmsh.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemInOutVtk.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemMaterial.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemMystran.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemZ88.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskCreateNodeSet.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskObjectName.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraint.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintBearing.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintFixed.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintForce.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintFluidBoundary.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPressure.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintDisplacement.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintTemperature.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintHeatflux.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintInitialTemperature.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPlaneRotation.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintContact.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintTransform.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintSpring.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskTetParameter.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskAnalysisInfo.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskDriver.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskPostDisplay.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskPostClip.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskPostDataAlongLine.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskPostDataAtPoint.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskPostScalarClip.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskPostWarpVector.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\TaskPostCut.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\PlaneWidget.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\SphereWidget.ui">
+      <Filter>Task_Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\Resources\Fem.qrc">
+      <Filter>Module</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\Resources\icons\FemWorkbench.svg" />
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Fem\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Constraint-Dialogs">
+      <UniqueIdentifier>{FFBC8093-5746-361A-83FD-A345BA5554F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{3B243185-DCBF-36D0-8572-103D12122E40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostObjects">
+      <UniqueIdentifier>{446CF8A0-DEED-3041-A9C2-97B2313B3520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{6581BB3C-2238-3029-8BF9-59FDC8F7C3B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{8413BE05-3B70-36BF-BB6A-8B5E84359A3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CEA0781D-00C5-3B66-A896-4A3F9A247EAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task_Boxes">
+      <UniqueIdentifier>{34C9FEFF-0C82-36D6-BBF8-0B8993A473FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task_Dialogs">
+      <UniqueIdentifier>{61B9D495-57F9-3AC8-938A-16AD20578F01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewProvider">
+      <UniqueIdentifier>{3A7C1191-F775-396C-85BE-1DD914B077A3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

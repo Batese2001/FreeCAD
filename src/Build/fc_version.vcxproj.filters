@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\8fc47a0a2f349a3db10a7c28861aab3b\version_check.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\8fc47a0a2f349a3db10a7c28861aab3b\Version.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\fa05d6ce38bb4d306f3ed83c1504279a\fc_version.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Build\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Build\CMakeFiles\fc_version" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{32D7BF8B-2F9D-369B-8A1F-61ECB2509700}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{077D90A3-5047-3504-9D42-1DB764E688F1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>MeshPartGui</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\MeshPart\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MeshPartGui.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MeshPartGui_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\MeshPart\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MeshPartGui.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MeshPartGui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\MeshPart\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MeshPartGui.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MeshPartGui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\MeshPart\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MeshPartGui.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MeshPartGui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\include_Debug;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/bin/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtCore" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/./mkspecs/win32-msvc" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtXml" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtConcurrent" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/vtk-8.2" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWidgets" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtGui" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtANGLE" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtOpenGL" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtPrintSupport" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtSvg" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtNetwork" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtUiTools" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWinExtras" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/shiboken2" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/PySide2" /Zm150 /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FC_DEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;NOMINMAX;STRSAFE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLX_GLXEXT_LEGACY;_OCC64;HAVE_ACOSH;HAVE_ATANH;HAVE_ASINH;HAVE_SMESH;HAVE_MEFISTO;HAVE_NETGEN;QT_CORE_LIB;QT_XML_LIB;QT_CONCURRENT_LIB;_WIN32_WINNT=0x1000;WNT;WNT_WINDOW;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR="Debug";MeshPartGui_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;FC_DEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;NOMINMAX;STRSAFE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLX_GLXEXT_LEGACY;_OCC64;HAVE_ACOSH;HAVE_ATANH;HAVE_ASINH;HAVE_SMESH;HAVE_MEFISTO;HAVE_NETGEN;QT_CORE_LIB;QT_XML_LIB;QT_CONCURRENT_LIB;_WIN32_WINNT=0x1000;WNT;WNT_WINDOW;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR=\"Debug\";MeshPartGui_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\include_Debug;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtConcurrent;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\include_Debug;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtConcurrent;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target MeshPartGui</Message>
+      <Command>setlocal
+cd C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/CMakeFiles/MeshPartGui_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\App\Debug\MeshPart_d.lib;..\..\Part\Gui\Debug\PartGui_d.lib;..\..\Mesh\Gui\Debug\MeshGui_d.lib;..\..\..\Gui\Debug\FreeCADGui_d.lib;..\..\..\..\lib\Debug\NETGENPlugin_d.lib;..\..\..\..\lib\Debug\StdMeshers_d.lib;..\..\..\..\lib\Debug\MEFISTO2_d.lib;..\..\..\..\lib\Debug\SMESH_d.lib;..\..\..\..\lib\Debug\DriverSTL_d.lib;..\..\..\..\lib\Debug\DriverDAT_d.lib;..\..\..\..\lib\Debug\DriverUNV_d.lib;..\..\..\..\lib\Debug\SMESHDS_d.lib;..\..\..\..\lib\Debug\Driver_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\medC.lib;..\..\..\..\lib\Debug\SMDS_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\nglib_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\ngcore_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBin.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBinL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXDESTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXDEIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMeshVS.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKRWMesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKVCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKLCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKCDF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKV3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKService.lib;windowscodecs.lib;winmm.lib;opengl32.lib;freetype.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersVerdict-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkverdict-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOXML-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOXMLParser-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkexpat-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOLegacy-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkdoubleconversion-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtklz4-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtklzma-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkhdf5-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkhdf5_hl-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkInteractionStyle-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersExtraction-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersStatistics-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkImagingFourier-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkImagingCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkRenderingFreeType-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkfreetype-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkzlib-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkRenderingOpenGL2-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkRenderingCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersSources-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersGeneral-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonComputationalGeometry-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersGeometry-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonExecutionModel-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonColor-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonDataModel-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonMisc-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonSystem-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtksys-8.2_d.lib;ws2_32.lib;Psapi.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonTransforms-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonMath-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkglew-8.2_d.lib;..\..\Part\App\Debug\Part_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKOffset.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKFillet.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEPAttr.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEP209.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEPBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXSBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKHLR.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKFeat.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBool.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBO.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKShHealing.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKPrim.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKTopAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKGeomAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBRep.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKGeomBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKG3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKG2d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMath.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\freetyped.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Coin4d.lib;opengl32.lib;hid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5OpenGLd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5PrintSupportd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Svgd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5UiToolsd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Widgetsd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgetsd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Guid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Cored.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgetsd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Guid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Cored.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5WinExtrasd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Guid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\pyside2_d.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\shiboken2_d.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Networkd.lib;..\..\Mesh\App\Debug\Mesh_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Concurrentd.lib;..\..\..\App\Debug\FreeCADApp_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Xmld.lib;..\..\..\Base\Debug\FreeCADBase_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Cored.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\xerces-c_3D.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\zlibd.lib;MSVCRTD.lib;MSVCPRTD.lib;Rpcrt4.lib;version.lib;vcruntimed.lib;ucrtd.lib;concrtd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\libs\python38_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_filesystem-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_program_options-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_regex-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_system-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_thread-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_date_time-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_chrono-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_atomic-vc141-mt-gd-x64-1_67.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/Debug/MeshPartGui_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/MeshPartGui_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\include_Release;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/bin/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtCore" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/./mkspecs/win32-msvc" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtXml" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtConcurrent" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/vtk-8.2" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWidgets" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtGui" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtANGLE" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtOpenGL" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtPrintSupport" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtSvg" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtNetwork" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtUiTools" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWinExtras" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/shiboken2" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/PySide2" /Zm150 /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;_OCC64;HAVE_ACOSH;HAVE_ATANH;HAVE_ASINH;HAVE_SMESH;HAVE_MEFISTO;HAVE_NETGEN;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;QT_CONCURRENT_LIB;_WIN32_WINNT=0x1000;WNT;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR="Release";MeshPartGui_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;_OCC64;HAVE_ACOSH;HAVE_ATANH;HAVE_ASINH;HAVE_SMESH;HAVE_MEFISTO;HAVE_NETGEN;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;QT_CONCURRENT_LIB;_WIN32_WINNT=0x1000;WNT;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR=\"Release\";MeshPartGui_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\include_Release;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtConcurrent;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\include_Release;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtConcurrent;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target MeshPartGui</Message>
+      <Command>setlocal
+cd C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/CMakeFiles/MeshPartGui_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\App\Release\MeshPart.lib;..\..\Part\Gui\Release\PartGui.lib;..\..\Mesh\Gui\Release\MeshGui.lib;..\..\..\Gui\Release\FreeCADGui.lib;..\..\..\..\lib\Release\NETGENPlugin.lib;..\..\..\..\lib\Release\StdMeshers.lib;..\..\..\..\lib\Release\MEFISTO2.lib;..\..\..\..\lib\Release\SMESH.lib;..\..\..\..\lib\Release\DriverSTL.lib;..\..\..\..\lib\Release\DriverDAT.lib;..\..\..\..\lib\Release\DriverUNV.lib;..\..\..\..\lib\Release\SMESHDS.lib;..\..\..\..\lib\Release\Driver.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\medC.lib;..\..\..\..\lib\Release\SMDS.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\nglib.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\ngcore.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKBin.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKBinL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKXDESTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKXDEIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKMeshVS.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKRWMesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKXCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKVCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKLCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKCDF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKV3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKService.lib;windowscodecs.lib;winmm.lib;opengl32.lib;freetype.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersVerdict-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkverdict-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOXML-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOXMLParser-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkexpat-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOLegacy-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOCore-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkdoubleconversion-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtklz4-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtklzma-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkhdf5-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkhdf5_hl-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkInteractionStyle-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersExtraction-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersStatistics-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkImagingFourier-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkImagingCore-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkRenderingFreeType-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkfreetype-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkzlib-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkRenderingOpenGL2-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkRenderingCore-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersSources-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersGeneral-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonComputationalGeometry-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersGeometry-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersCore-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonExecutionModel-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonColor-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonDataModel-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonMisc-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonSystem-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonTransforms-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonMath-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonCore-8.2.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkglew-8.2.lib;..\..\Part\App\Release\Part.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKMesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKSTL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKOffset.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKFillet.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKSTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKSTEPAttr.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKSTEP209.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKSTEPBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKXSBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKHLR.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKFeat.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKBool.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKBO.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKShHealing.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKPrim.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKTopAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKGeomAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKBRep.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKGeomBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKG3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKG2d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKMath.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\freetype.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Coin4.lib;opengl32.lib;hid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5OpenGL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5PrintSupport.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Svg.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5UiTools.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5WinExtras.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\pyside2.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\shiboken2.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Network.lib;..\..\Mesh\App\Release\Mesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Concurrent.lib;..\..\..\App\Release\FreeCADApp.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Xml.lib;..\..\..\Base\Release\FreeCADBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\xerces-c_3.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\libs\python38.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_filesystem-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_program_options-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_regex-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_system-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_thread-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_date_time-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_chrono-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_atomic-vc141-mt-x64-1_67.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/Release/MeshPartGui.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/MeshPartGui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\include_MinSizeRel;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/bin/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtCore" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/./mkspecs/win32-msvc" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtXml" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtConcurrent" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/vtk-8.2" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWidgets" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtGui" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtANGLE" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtOpenGL" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtPrintSupport" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtSvg" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtNetwork" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtUiTools" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWinExtras" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/shiboken2" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/PySide2" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;HAVE_ACOSH;HAVE_ATANH;HAVE_ASINH;HAVE_SMESH;HAVE_MEFISTO;HAVE_NETGEN;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;QT_CONCURRENT_LIB;_WIN32_WINNT=0x1000;WNT;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR="MinSizeRel";MeshPartGui_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;HAVE_ACOSH;HAVE_ATANH;HAVE_ASINH;HAVE_SMESH;HAVE_MEFISTO;HAVE_NETGEN;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;QT_CONCURRENT_LIB;_WIN32_WINNT=0x1000;WNT;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR=\"MinSizeRel\";MeshPartGui_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\include_MinSizeRel;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtConcurrent;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\include_MinSizeRel;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtConcurrent;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target MeshPartGui</Message>
+      <Command>setlocal
+cd C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/CMakeFiles/MeshPartGui_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\App\MinSizeRel\MeshPart.lib;..\..\Part\Gui\MinSizeRel\PartGui.lib;..\..\Mesh\Gui\MinSizeRel\MeshGui.lib;..\..\..\Gui\MinSizeRel\FreeCADGui.lib;..\..\..\..\lib\MinSizeRel\NETGENPlugin.lib;..\..\..\..\lib\MinSizeRel\StdMeshers.lib;..\..\..\..\lib\MinSizeRel\MEFISTO2.lib;..\..\..\..\lib\MinSizeRel\SMESH.lib;..\..\..\..\lib\MinSizeRel\DriverSTL.lib;..\..\..\..\lib\MinSizeRel\DriverDAT.lib;..\..\..\..\lib\MinSizeRel\DriverUNV.lib;..\..\..\..\lib\MinSizeRel\SMESHDS.lib;..\..\..\..\lib\MinSizeRel\Driver.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\medC.lib;..\..\..\..\lib\MinSizeRel\SMDS.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\nglib_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\ngcore_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBin.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBinL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXDESTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXDEIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMeshVS.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKRWMesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKVCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKLCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKCDF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKV3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKService.lib;windowscodecs.lib;winmm.lib;opengl32.lib;freetype.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersVerdict-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkverdict-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOXML-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOXMLParser-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkexpat-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOLegacy-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkdoubleconversion-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtklz4-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtklzma-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkhdf5-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkhdf5_hl-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkInteractionStyle-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersExtraction-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersStatistics-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkImagingFourier-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkImagingCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkRenderingFreeType-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkfreetype-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkzlib-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkRenderingOpenGL2-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkRenderingCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersSources-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersGeneral-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonComputationalGeometry-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersGeometry-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonExecutionModel-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonColor-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonDataModel-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonMisc-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonSystem-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtksys-8.2_d.lib;ws2_32.lib;Psapi.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonTransforms-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonMath-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkglew-8.2_d.lib;..\..\Part\App\MinSizeRel\Part.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKOffset.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKFillet.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEPAttr.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEP209.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEPBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXSBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKHLR.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKFeat.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBool.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBO.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKShHealing.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKPrim.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKTopAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKGeomAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBRep.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKGeomBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKG3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKG2d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMath.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\freetype.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Coin4.lib;opengl32.lib;hid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5OpenGL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5PrintSupport.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Svg.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5UiTools.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5WinExtras.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\pyside2_d.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\shiboken2_d.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Network.lib;..\..\Mesh\App\MinSizeRel\Mesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Concurrent.lib;..\..\..\App\MinSizeRel\FreeCADApp.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Xml.lib;..\..\..\Base\MinSizeRel\FreeCADBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\xerces-c_3.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\libs\python38.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_filesystem-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_program_options-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_regex-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_system-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_thread-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_date_time-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_chrono-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_atomic-vc141-mt-x64-1_67.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/MinSizeRel/MeshPartGui.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/MinSizeRel/MeshPartGui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\include_RelWithDebInfo;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/bin/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtCore" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/./mkspecs/win32-msvc" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtXml" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtConcurrent" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/vtk-8.2" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWidgets" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtGui" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtANGLE" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtOpenGL" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtPrintSupport" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtSvg" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtNetwork" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtUiTools" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtWinExtras" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/shiboken2" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/PySide2" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;HAVE_ACOSH;HAVE_ATANH;HAVE_ASINH;HAVE_SMESH;HAVE_MEFISTO;HAVE_NETGEN;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;QT_CONCURRENT_LIB;_WIN32_WINNT=0x1000;WNT;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR="RelWithDebInfo";MeshPartGui_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;HAVE_ACOSH;HAVE_ATANH;HAVE_ASINH;HAVE_SMESH;HAVE_MEFISTO;HAVE_NETGEN;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;QT_CONCURRENT_LIB;_WIN32_WINNT=0x1000;WNT;WNT_WINDOW;NOMINMAX;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_NETWORK_LIB;QT_UITOOLS_LIB;QT_WINEXTRAS_LIB;PYSIDE_QML_SUPPORT=1;CMAKE_INTDIR=\"RelWithDebInfo\";MeshPartGui_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\include_RelWithDebInfo;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtConcurrent;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\include_RelWithDebInfo;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\inc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtConcurrent;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\vtk-8.2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWidgets;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtGui;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtANGLE;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtOpenGL;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtPrintSupport;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtSvg;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtNetwork;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtUiTools;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtWinExtras;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\shiboken2;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\PySide2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target MeshPartGui</Message>
+      <Command>setlocal
+cd C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/CMakeFiles/MeshPartGui_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\App\RelWithDebInfo\MeshPart.lib;..\..\Part\Gui\RelWithDebInfo\PartGui.lib;..\..\Mesh\Gui\RelWithDebInfo\MeshGui.lib;..\..\..\Gui\RelWithDebInfo\FreeCADGui.lib;..\..\..\..\lib\RelWithDebInfo\NETGENPlugin.lib;..\..\..\..\lib\RelWithDebInfo\StdMeshers.lib;..\..\..\..\lib\RelWithDebInfo\MEFISTO2.lib;..\..\..\..\lib\RelWithDebInfo\SMESH.lib;..\..\..\..\lib\RelWithDebInfo\DriverSTL.lib;..\..\..\..\lib\RelWithDebInfo\DriverDAT.lib;..\..\..\..\lib\RelWithDebInfo\DriverUNV.lib;..\..\..\..\lib\RelWithDebInfo\SMESHDS.lib;..\..\..\..\lib\RelWithDebInfo\Driver.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\medC.lib;..\..\..\..\lib\RelWithDebInfo\SMDS.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\nglib_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\ngcore_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBin.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBinL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXDESTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXDEIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMeshVS.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKRWMesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKVCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKLCAF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKCDF.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKV3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKService.lib;windowscodecs.lib;winmm.lib;opengl32.lib;freetype.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersVerdict-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkverdict-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOXML-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOXMLParser-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkexpat-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOLegacy-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkIOCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkdoubleconversion-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtklz4-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtklzma-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkhdf5-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkhdf5_hl-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkInteractionStyle-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersExtraction-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersStatistics-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkImagingFourier-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkImagingCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkRenderingFreeType-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkfreetype-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkzlib-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkRenderingOpenGL2-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkRenderingCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersSources-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersGeneral-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonComputationalGeometry-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersGeometry-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkFiltersCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonExecutionModel-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonColor-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonDataModel-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonMisc-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonSystem-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtksys-8.2_d.lib;ws2_32.lib;Psapi.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonTransforms-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonMath-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkCommonCore-8.2_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\vtkglew-8.2_d.lib;..\..\Part\App\RelWithDebInfo\Part.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKIGES.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKOffset.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKFillet.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEP.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEPAttr.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEP209.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKSTEPBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKXSBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKHLR.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKFeat.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBool.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBO.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKShHealing.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKPrim.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKTopAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKGeomAlgo.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKBRep.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKGeomBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKG3d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKG2d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKMath.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\libd\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\freetype.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Coin4.lib;opengl32.lib;hid.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5OpenGL.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5PrintSupport.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Svg.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5UiTools.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Widgets.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5WinExtras.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Gui.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\pyside2_d.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\shiboken2_d.cp38-win_amd64.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Network.lib;..\..\Mesh\App\RelWithDebInfo\Mesh.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Concurrent.lib;..\..\..\App\RelWithDebInfo\FreeCADApp.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Xml.lib;..\..\..\Base\RelWithDebInfo\FreeCADBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Core.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\xerces-c_3.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\libs\python38.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_filesystem-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_program_options-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_regex-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_system-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_thread-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_date_time-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_chrono-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_atomic-vc141-mt-x64-1_67.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/RelWithDebInfo/MeshPartGui.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/RelWithDebInfo/MeshPartGui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\MeshPart.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qrc_MeshPart.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\rcc.exe --name MeshPart --output C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/qrc_MeshPart.cpp C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/Resources/MeshPart.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\actions\MeshFace.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\MeshPart_CurveOnMesh.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\MeshPart_CreateFlatFace.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\MeshPart_CreateFlatMesh.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_af.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_de.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_fi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_fr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_hr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_it.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_nl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_no.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_pl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ru.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_uk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_tr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sv-SE.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_zh-TW.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_pt-BR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_cs.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_es-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_zh-CN.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ja.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ro.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_hu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_pt-PT.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_el.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_eu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ca.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_gl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_kab.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ko.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_fil.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_id.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_lt.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_val-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ar.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_vi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_es-AR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_bg.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ka.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\Resources\MeshPart.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\qrc_MeshPart.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qrc_MeshPart.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\rcc.exe --name MeshPart --output C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/qrc_MeshPart.cpp C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/Resources/MeshPart.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\actions\MeshFace.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\MeshPart_CurveOnMesh.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\MeshPart_CreateFlatFace.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\MeshPart_CreateFlatMesh.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_af.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_de.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_fi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_fr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_hr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_it.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_nl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_no.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_pl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ru.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_uk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_tr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sv-SE.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_zh-TW.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_pt-BR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_cs.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_es-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_zh-CN.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ja.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ro.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_hu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_pt-PT.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_el.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_eu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ca.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_gl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_kab.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ko.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_fil.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_id.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_lt.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_val-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ar.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_vi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_es-AR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_bg.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ka.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\Resources\MeshPart.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\qrc_MeshPart.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qrc_MeshPart.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\rcc.exe --name MeshPart --output C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/qrc_MeshPart.cpp C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/Resources/MeshPart.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\actions\MeshFace.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\MeshPart_CurveOnMesh.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\MeshPart_CreateFlatFace.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\MeshPart_CreateFlatMesh.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_af.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_de.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_fi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_fr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_hr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_it.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_nl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_no.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_pl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ru.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_uk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_tr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sv-SE.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_zh-TW.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_pt-BR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_cs.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_es-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_zh-CN.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ja.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ro.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_hu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_pt-PT.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_el.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_eu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ca.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_gl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_kab.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ko.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_fil.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_id.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_lt.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_val-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ar.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_vi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_es-AR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_bg.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ka.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\Resources\MeshPart.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\qrc_MeshPart.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qrc_MeshPart.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\rcc.exe --name MeshPart --output C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/qrc_MeshPart.cpp C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/Resources/MeshPart.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\actions\MeshFace.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\MeshPart_CurveOnMesh.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\MeshPart_CreateFlatFace.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\icons\MeshPart_CreateFlatMesh.svg;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_af.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_de.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_fi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_fr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_hr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_it.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_nl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_no.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_pl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ru.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_uk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_tr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sv-SE.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_zh-TW.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_pt-BR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_cs.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sk.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_es-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_zh-CN.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ja.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ro.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_hu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_pt-PT.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sr.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_el.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_sl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_eu.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ca.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_gl.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_kab.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ko.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_fil.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_id.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_lt.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_val-ES.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ar.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_vi.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_es-AR.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_bg.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\translations\MeshPart_ka.qm;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\Resources\MeshPart.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\qrc_MeshPart.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\CrossSections.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_CrossSections.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/ui_CrossSections.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/CrossSections.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_CrossSections.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_CrossSections.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/ui_CrossSections.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/CrossSections.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_CrossSections.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_CrossSections.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/ui_CrossSections.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/CrossSections.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_CrossSections.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_CrossSections.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/ui_CrossSections.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/CrossSections.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_CrossSections.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\TaskCurveOnMesh.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_TaskCurveOnMesh.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/ui_TaskCurveOnMesh.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/TaskCurveOnMesh.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_TaskCurveOnMesh.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_TaskCurveOnMesh.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/ui_TaskCurveOnMesh.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/TaskCurveOnMesh.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_TaskCurveOnMesh.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_TaskCurveOnMesh.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/ui_TaskCurveOnMesh.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/TaskCurveOnMesh.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_TaskCurveOnMesh.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_TaskCurveOnMesh.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/ui_TaskCurveOnMesh.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/TaskCurveOnMesh.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_TaskCurveOnMesh.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Tessellation.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_Tessellation.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/ui_Tessellation.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/Tessellation.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_Tessellation.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_Tessellation.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/ui_Tessellation.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/Tessellation.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_Tessellation.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_Tessellation.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/ui_Tessellation.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/Tessellation.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_Tessellation.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_Tessellation.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\uic.exe -o C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/ui_Tessellation.h C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/Tessellation.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_Tessellation.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\InitGui.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/InitGui.py to C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/InitGui.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/InitGui.py C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/InitGui.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\MeshPart\InitGui.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/InitGui.py to C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/InitGui.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/InitGui.py C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/InitGui.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\MeshPart\InitGui.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/InitGui.py to C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/InitGui.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/InitGui.py C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/InitGui.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\MeshPart\InitGui.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/InitGui.py to C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/InitGui.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/InitGui.py C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/InitGui.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\MeshPart\InitGui.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\MeshFlatteningCommand.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/MeshFlatteningCommand.py to C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/MeshFlatteningCommand.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/MeshFlatteningCommand.py C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/MeshFlatteningCommand.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\MeshPart\MeshFlatteningCommand.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/MeshFlatteningCommand.py to C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/MeshFlatteningCommand.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/MeshFlatteningCommand.py C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/MeshFlatteningCommand.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\MeshPart\MeshFlatteningCommand.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/MeshFlatteningCommand.py to C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/MeshFlatteningCommand.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/MeshFlatteningCommand.py C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/MeshFlatteningCommand.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\MeshPart\MeshFlatteningCommand.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/MeshFlatteningCommand.py to C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/MeshFlatteningCommand.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/MeshFlatteningCommand.py C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/MeshPart/MeshFlatteningCommand.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\MeshPart\MeshFlatteningCommand.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\MeshPart.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\MeshPart.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\MeshPart.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/MeshPart/Gui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/MeshPart/Gui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Resources\MeshPart.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\qrc_MeshPart.cpp" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_CrossSections.h" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_TaskCurveOnMesh.h" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\ui_Tessellation.h" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\AppMeshPartGui.cpp" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Command.cpp" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\CrossSections.cpp" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\CrossSections.h" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\CurveOnMesh.cpp" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\CurveOnMesh.h" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\PreCompiled.cpp" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\PreCompiled.h" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\TaskCurveOnMesh.cpp" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\TaskCurveOnMesh.h" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Tessellation.cpp" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Tessellation.h" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Workbench.cpp" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\MeshPart\Gui\Workbench.h" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\ZERO_CHECK.vcxproj">
+      <Project>{1D5899A6-68A2-3143-8BC0-B6A4DDD26DFD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\Driver.vcxproj">
+      <Project>{10947933-8FE0-3C4F-9029-D7FE78601F22}</Project>
+      <Name>Driver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\DriverDAT.vcxproj">
+      <Project>{D28E0F7C-3269-35D7-A6CF-680688BBA8A4}</Project>
+      <Name>DriverDAT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\DriverSTL.vcxproj">
+      <Project>{D80451C7-5F84-3890-9D94-73AB6EEE82C1}</Project>
+      <Name>DriverSTL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\DriverUNV.vcxproj">
+      <Project>{649A4252-90F2-355E-8BAD-C8F15D202EA9}</Project>
+      <Name>DriverUNV</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\App\FreeCADApp.vcxproj">
+      <Project>{D9E1B32B-6217-3196-AAB7-8C8250CDC6A6}</Project>
+      <Name>FreeCADApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Base\FreeCADBase.vcxproj">
+      <Project>{D382A700-C713-35CE-8591-4A86563D2B58}</Project>
+      <Name>FreeCADBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\FreeCADGui.vcxproj">
+      <Project>{A6E9526A-459F-3FED-B75B-D65651ADACC8}</Project>
+      <Name>FreeCADGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\MEFISTO2.vcxproj">
+      <Project>{60F059EB-3A5C-386A-A45B-9B51ECF67404}</Project>
+      <Name>MEFISTO2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Mesh\App\Mesh.vcxproj">
+      <Project>{717D69F7-1737-3D75-B344-6AF8E915EBA4}</Project>
+      <Name>Mesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Mesh\Gui\MeshGui.vcxproj">
+      <Project>{0987ABD6-6EEA-3B16-AE7E-76E32A91C03E}</Project>
+      <Name>MeshGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\App\MeshPart.vcxproj">
+      <Project>{031541BC-E76E-3E84-9E46-FBB77091D1E6}</Project>
+      <Name>MeshPart</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\NETGENPlugin.vcxproj">
+      <Project>{FE2EBB0D-BED5-3070-A4CB-614F7313D406}</Project>
+      <Name>NETGENPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Part\App\Part.vcxproj">
+      <Project>{0059E387-C5F2-354A-963D-09B77B70DBD7}</Project>
+      <Name>Part</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Part\Gui\PartGui.vcxproj">
+      <Project>{70791920-4A39-3ED4-BB6F-413A4A1D428F}</Project>
+      <Name>PartGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\SMDS.vcxproj">
+      <Project>{4E4C3C49-ED2C-3F74-B766-E6A33FE27124}</Project>
+      <Name>SMDS</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\SMESH.vcxproj">
+      <Project>{66E25DCA-4B6C-3987-8816-0954BEC17EDA}</Project>
+      <Name>SMESH</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\SMESHDS.vcxproj">
+      <Project>{947CE845-8F7E-30FE-BAE6-068C6136B7F0}</Project>
+      <Name>SMESHDS</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\StdMeshers.vcxproj">
+      <Project>{90FB2877-9432-357F-A27F-A41383BD29FF}</Project>
+      <Name>StdMeshers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

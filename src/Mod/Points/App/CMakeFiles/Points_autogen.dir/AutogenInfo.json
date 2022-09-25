@@ -1,0 +1,258 @@
+{
+	"BUILD_DIR" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/Points_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/Points.h",
+			"Mu",
+			"EWIEGA46WW/moc_Points.cpp",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/PointsAlgos.h",
+			"Mu",
+			"EWIEGA46WW/moc_PointsAlgos.cpp",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/PointsFeature.h",
+			"Mu",
+			"EWIEGA46WW/moc_PointsFeature.cpp",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/PointsGrid.h",
+			"Mu",
+			"EWIEGA46WW/moc_PointsGrid.cpp",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/PreCompiled.h",
+			"Mu",
+			"EWIEGA46WW/moc_PreCompiled.cpp",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/Properties.h",
+			"Mu",
+			"EWIEGA46WW/moc_Properties.cpp",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/PropertyPointKernel.h",
+			"Mu",
+			"EWIEGA46WW/moc_PropertyPointKernel.cpp",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/Structured.h",
+			"Mu",
+			"EWIEGA46WW/moc_Structured.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/Points_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/Points_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/Points_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/Points_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/Points_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/Points_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/Points_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/Points_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/Points_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/Points_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BOOST_NO_CXX98_FUNCTION_BASE",
+		"FCAppPoints",
+		"HAVE_SNPRINTF",
+		"PYCXX_6_2_COMPATIBILITY",
+		"Points_EXPORTS",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_XML_LIB",
+		"WIN32",
+		"_OCC64"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"BOOST_NO_CXX98_FUNCTION_BASE",
+		"FCAppPoints",
+		"GLX_GLXEXT_LEGACY",
+		"HAVE_FREETYPE",
+		"HAVE_OPENGL_EXT",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"HAVE_TK",
+		"HAVE_VTK",
+		"NOMINMAX",
+		"PYCXX_6_2_COMPATIBILITY",
+		"Points_EXPORTS",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_XML_LIB",
+		"STRSAFE_NO_DEPRECATE",
+		"UNICODE",
+		"VTK_OPENGL2_BACKEND",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_SCL_SECURE_NO_WARNINGS",
+		"_UNICODE",
+		"vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2)",
+		"vtkIOExport_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\"",
+		"vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)",
+		"vtkRenderingCore_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\"",
+		"vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2)",
+		"vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2)"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"BOOST_NO_CXX98_FUNCTION_BASE",
+		"FCAppPoints",
+		"HAVE_FREETYPE",
+		"HAVE_OPENGL_EXT",
+		"HAVE_RAPIDJSON",
+		"HAVE_SNPRINTF",
+		"HAVE_TK",
+		"HAVE_VTK",
+		"PYCXX_6_2_COMPATIBILITY",
+		"Points_EXPORTS",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_XML_LIB",
+		"UNICODE",
+		"VTK_OPENGL2_BACKEND",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_OCC64",
+		"_UNICODE",
+		"vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2)",
+		"vtkIOExport_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\"",
+		"vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)",
+		"vtkRenderingCore_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\"",
+		"vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2)",
+		"vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2)"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src",
+		"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src",
+		"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App",
+		"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App",
+		"C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/eigen3",
+		"C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/bin/include",
+		"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/3rdParty/libE57Format",
+		"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/3rdParty/libE57Format/include",
+		"C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include",
+		"C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtConcurrent",
+		"C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtCore",
+		"C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/mkspecs/win32-msvc",
+		"C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtXml"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/CMakeFiles/Points_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/CMakeFiles/Points_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/CMakeFiles/Points_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/CMakeFiles/Points_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/CMakeFiles/Points_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/CMakeFiles/Points_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/CMakeFiles/Points_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/CMakeFiles/Points_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/CMakeFiles/Points_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Points/App/CMakeFiles/Points_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/AppPoints.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/AppPointsPy.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/Points.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/PointsAlgos.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/PointsFeature.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/PointsGrid.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/PointsPyImp.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/PreCompiled.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/Properties.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/PropertyPointKernel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Points/App/Structured.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

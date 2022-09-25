@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E1535EFF-FC12-3B37-9425-D4358008A87D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\AddFileDependencies.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCoin3D.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindFreetype.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindXercesC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\LibraryVersions.h.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\SMESH_Version.h.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindEigen3.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindMEDFile.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindMatplotlib.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindNETGEN.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindOCC.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindPyCXX.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindPySide2Tools.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FreeCAD_Helpers\SetupQt.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FreeCadMacros.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\UseLibPackCLbundler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\QtOpenGL.h.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\NetgenConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEApplicationFrameworkTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEApplicationFrameworkTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEApplicationFrameworkTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADECompileDefinitionsAndFlags-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADECompileDefinitionsAndFlags-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDataExchangeTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDataExchangeTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDataExchangeTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDrawTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDrawTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDrawTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEFoundationClassesTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEFoundationClassesTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEFoundationClassesTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingAlgorithmsTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingAlgorithmsTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingAlgorithmsTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingDataTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingDataTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingDataTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEVisualizationTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEVisualizationTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEVisualizationTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5-config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\netgen-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\netgen-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\netgen-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\szip\szip-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\szip\szip-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\szip\szip-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\zlib\zlib-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\zlib\zlib-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\zlib\zlib-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Config.cp38-win_amd64.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2ConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5PositioningConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5PositioningConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5Positioning_QGeoPositionInfoSourceFactoryPoll.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5Positioning_QGeoPositionInfoSourceFactorySerialNmea.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5Positioning_QGeoPositionInfoSourceFactoryWinRT.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Quick\Qt5Quick_QSGD3D12Adaptation.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5UiTools\Qt5UiToolsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5UiTools\Qt5UiToolsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebChannel\Qt5WebChannelConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebChannel\Qt5WebChannelConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineCore\Qt5WebEngineCoreConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineCore\Qt5WebEngineCoreConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineWidgets\Qt5WebEngineWidgetsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineWidgets\Qt5WebEngineWidgetsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Config.cp38-win_amd64.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2ConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\shiboken_helpers.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersVerdict.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOLegacy.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOXML.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOXMLParser.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkInteractionStyle.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkRenderingFreeType.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkRenderingOpenGL2.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkdoubleconversion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkexpat.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkfreetype.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkglew.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkhdf5.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtklz4.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtklzma.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkverdict.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\vtkModuleAPI.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\AddFileDependencies.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCoin3D.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindFreetype.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindXercesC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\LibraryVersions.h.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\SMESH_Version.h.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindEigen3.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindMEDFile.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindMatplotlib.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindNETGEN.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindOCC.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindPyCXX.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindPySide2Tools.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FreeCAD_Helpers\SetupQt.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FreeCadMacros.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\UseLibPackCLbundler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\QtOpenGL.h.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\NetgenConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEApplicationFrameworkTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEApplicationFrameworkTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEApplicationFrameworkTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADECompileDefinitionsAndFlags-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADECompileDefinitionsAndFlags-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDataExchangeTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDataExchangeTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDataExchangeTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDrawTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDrawTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDrawTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEFoundationClassesTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEFoundationClassesTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEFoundationClassesTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingAlgorithmsTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingAlgorithmsTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingAlgorithmsTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingDataTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingDataTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingDataTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEVisualizationTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEVisualizationTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEVisualizationTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5-config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\netgen-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\netgen-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\netgen-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\szip\szip-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\szip\szip-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\szip\szip-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\zlib\zlib-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\zlib\zlib-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\zlib\zlib-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Config.cp38-win_amd64.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2ConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5PositioningConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5PositioningConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5Positioning_QGeoPositionInfoSourceFactoryPoll.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5Positioning_QGeoPositionInfoSourceFactorySerialNmea.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5Positioning_QGeoPositionInfoSourceFactoryWinRT.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Quick\Qt5Quick_QSGD3D12Adaptation.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5UiTools\Qt5UiToolsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5UiTools\Qt5UiToolsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebChannel\Qt5WebChannelConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebChannel\Qt5WebChannelConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineCore\Qt5WebEngineCoreConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineCore\Qt5WebEngineCoreConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineWidgets\Qt5WebEngineWidgetsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineWidgets\Qt5WebEngineWidgetsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Config.cp38-win_amd64.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2ConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\shiboken_helpers.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersVerdict.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOLegacy.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOXML.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOXMLParser.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkInteractionStyle.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkRenderingFreeType.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkRenderingOpenGL2.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkdoubleconversion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkexpat.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkfreetype.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkglew.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkhdf5.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtklz4.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtklzma.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkverdict.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\vtkModuleAPI.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\AddFileDependencies.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCoin3D.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindFreetype.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindXercesC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\LibraryVersions.h.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\SMESH_Version.h.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindEigen3.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindMEDFile.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindMatplotlib.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindNETGEN.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindOCC.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindPyCXX.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindPySide2Tools.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FreeCAD_Helpers\SetupQt.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FreeCadMacros.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\UseLibPackCLbundler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\QtOpenGL.h.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\NetgenConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEApplicationFrameworkTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEApplicationFrameworkTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEApplicationFrameworkTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADECompileDefinitionsAndFlags-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADECompileDefinitionsAndFlags-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDataExchangeTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDataExchangeTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDataExchangeTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDrawTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDrawTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDrawTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEFoundationClassesTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEFoundationClassesTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEFoundationClassesTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingAlgorithmsTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingAlgorithmsTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingAlgorithmsTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingDataTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingDataTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingDataTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEVisualizationTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEVisualizationTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEVisualizationTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5-config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\netgen-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\netgen-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\netgen-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\szip\szip-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\szip\szip-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\szip\szip-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\zlib\zlib-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\zlib\zlib-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\zlib\zlib-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Config.cp38-win_amd64.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2ConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5PositioningConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5PositioningConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5Positioning_QGeoPositionInfoSourceFactoryPoll.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5Positioning_QGeoPositionInfoSourceFactorySerialNmea.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5Positioning_QGeoPositionInfoSourceFactoryWinRT.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Quick\Qt5Quick_QSGD3D12Adaptation.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5UiTools\Qt5UiToolsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5UiTools\Qt5UiToolsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebChannel\Qt5WebChannelConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebChannel\Qt5WebChannelConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineCore\Qt5WebEngineCoreConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineCore\Qt5WebEngineCoreConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineWidgets\Qt5WebEngineWidgetsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineWidgets\Qt5WebEngineWidgetsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Config.cp38-win_amd64.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2ConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\shiboken_helpers.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersVerdict.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOLegacy.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOXML.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOXMLParser.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkInteractionStyle.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkRenderingFreeType.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkRenderingOpenGL2.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkdoubleconversion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkexpat.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkfreetype.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkglew.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkhdf5.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtklz4.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtklzma.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkverdict.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\vtkModuleAPI.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\AddFileDependencies.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCoin3D.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindFreetype.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindXercesC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\LibraryVersions.h.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\SMESH_Version.h.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindEigen3.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindMEDFile.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindMatplotlib.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindNETGEN.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindOCC.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindPyCXX.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FindPySide2Tools.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FreeCAD_Helpers\SetupQt.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\FreeCadMacros.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\cMake\UseLibPackCLbundler.cmake;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\QtOpenGL.h.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\NetgenConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEApplicationFrameworkTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEApplicationFrameworkTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEApplicationFrameworkTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADECompileDefinitionsAndFlags-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADECompileDefinitionsAndFlags-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDataExchangeTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDataExchangeTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDataExchangeTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDrawTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDrawTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEDrawTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEFoundationClassesTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEFoundationClassesTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEFoundationClassesTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingAlgorithmsTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingAlgorithmsTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingAlgorithmsTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingDataTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingDataTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEModelingDataTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEVisualizationTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEVisualizationTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\OpenCASCADEVisualizationTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5-config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\hdf5\hdf5-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\netgen-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\netgen-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\netgen-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\szip\szip-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\szip\szip-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\szip\szip-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\zlib\zlib-targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\zlib\zlib-targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\cmake\zlib\zlib-targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Config.cp38-win_amd64.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2ConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\PySide2-5.15.2\PySide2Targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5PositioningConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5PositioningConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5Positioning_QGeoPositionInfoSourceFactoryPoll.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5Positioning_QGeoPositionInfoSourceFactorySerialNmea.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Positioning\Qt5Positioning_QGeoPositionInfoSourceFactoryWinRT.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Quick\Qt5Quick_QSGD3D12Adaptation.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5UiTools\Qt5UiToolsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5UiTools\Qt5UiToolsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebChannel\Qt5WebChannelConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebChannel\Qt5WebChannelConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineCore\Qt5WebEngineCoreConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineCore\Qt5WebEngineCoreConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineWidgets\Qt5WebEngineWidgetsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WebEngineWidgets\Qt5WebEngineWidgetsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Config.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Config.cp38-win_amd64.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2ConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Targets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Targets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\Shiboken2Targets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\Shiboken2-5.15.0\shiboken_helpers.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersExtraction.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersStatistics.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkFiltersVerdict.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOLegacy.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOXML.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkIOXMLParser.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkImagingCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkImagingFourier.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkInteractionStyle.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkRenderingFreeType.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkRenderingOpenGL2.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkdoubleconversion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkeigen.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkexpat.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkfreetype.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkglew.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkhdf5.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtklz4.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtklzma.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkverdict.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\Modules\vtkzlib.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKConfig.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKConfigVersion.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKTargets-debug.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKTargets-release.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\VTKTargets.cmake;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\cmake\vtk-8.2\vtkModuleAPI.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\ZERO_CHECK.vcxproj">
+      <Project>{1D5899A6-68A2-3143-8BC0-B6A4DDD26DFD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\AddonManager\AddonManager.vcxproj">
+      <Project>{60BAF26A-CB2C-3E64-8990-EA605CB46A21}</Project>
+      <Name>AddonManager</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\AddonManager\AddonManagerTests.vcxproj">
+      <Project>{F664FE55-E4EA-342D-B99C-1691F43F6EB0}</Project>
+      <Name>AddonManagerTests</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Arch\Arch.vcxproj">
+      <Project>{6E4475F3-D810-328F-A6FB-45CA1C32F436}</Project>
+      <Name>Arch</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Draft\Draft.vcxproj">
+      <Project>{7D914CBA-2238-3D5F-A0AC-EE9F68849361}</Project>
+      <Name>Draft</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Draft\App\DraftUtils.vcxproj">
+      <Project>{27AE8BC4-6F99-328A-B823-7C72F8CBFADD}</Project>
+      <Name>DraftUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\Driver.vcxproj">
+      <Project>{10947933-8FE0-3C4F-9029-D7FE78601F22}</Project>
+      <Name>Driver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\DriverDAT.vcxproj">
+      <Project>{D28E0F7C-3269-35D7-A6CF-680688BBA8A4}</Project>
+      <Name>DriverDAT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\DriverSTL.vcxproj">
+      <Project>{D80451C7-5F84-3890-9D94-73AB6EEE82C1}</Project>
+      <Name>DriverSTL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\DriverUNV.vcxproj">
+      <Project>{649A4252-90F2-355E-8BAD-C8F15D202EA9}</Project>
+      <Name>DriverUNV</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\libE57Format\E57Format.vcxproj">
+      <Project>{5927404F-1439-3872-A7E5-3B3364124290}</Project>
+      <Name>E57Format</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\data\examples\Example_data.vcxproj">
+      <Project>{711CEE2D-F3F9-333A-A564-B0F70A0829C6}</Project>
+      <Name>Example_data</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\App\Fem.vcxproj">
+      <Project>{7326A405-54FA-37F0-9851-C079DC1C53DF}</Project>
+      <Name>Fem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\FemGui.vcxproj">
+      <Project>{FDD9F00B-C5EC-353A-9178-DCD507FDD4E5}</Project>
+      <Name>FemGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\FemGuiScriptsTarget.vcxproj">
+      <Project>{99682623-87A1-3EC4-A1BD-30C786624FA0}</Project>
+      <Name>FemGuiScriptsTarget</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\Gui\FemPythonUi.vcxproj">
+      <Project>{C804721E-C539-3DEF-846E-220C91310936}</Project>
+      <Name>FemPythonUi</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Fem\FemScriptsTarget.vcxproj">
+      <Project>{DA546B0E-136E-3E94-B776-888DAE8207C8}</Project>
+      <Name>FemScriptsTarget</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Material\FluidMaterialLib.vcxproj">
+      <Project>{BC5DDA46-DB14-3DB5-BF24-BF66184AE8B5}</Project>
+      <Name>FluidMaterialLib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\App\FreeCADApp.vcxproj">
+      <Project>{D9E1B32B-6217-3196-AAB7-8C8250CDC6A6}</Project>
+      <Name>FreeCADApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Base\FreeCADBase.vcxproj">
+      <Project>{D382A700-C713-35CE-8591-4A86563D2B58}</Project>
+      <Name>FreeCADBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\FreeCADGui.vcxproj">
+      <Project>{A6E9526A-459F-3FED-B75B-D65651ADACC8}</Project>
+      <Name>FreeCADGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Main\FreeCADGuiPy.vcxproj">
+      <Project>{C6BC5B50-2C51-3DA7-BD33-081FA09EB39A}</Project>
+      <Name>FreeCADGuiPy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\FreeCADGui_Resources.vcxproj">
+      <Project>{2A4F9554-5354-3C88-8086-4336374C943C}</Project>
+      <Name>FreeCADGui_Resources</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Main\FreeCADMain.vcxproj">
+      <Project>{CE46DB26-B1D6-3BF6-AA5A-86ADB9B0B354}</Project>
+      <Name>FreeCADMain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Main\FreeCADMainCmd.vcxproj">
+      <Project>{AD57D5A6-11BF-39C8-9579-6B8F0B5DE172}</Project>
+      <Name>FreeCADMainCmd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Main\FreeCADMainPy.vcxproj">
+      <Project>{9EA36F4D-880A-3B70-B9D7-D9A8F5161A16}</Project>
+      <Name>FreeCADMainPy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Idf\Idf.vcxproj">
+      <Project>{155CC01D-1292-3EC5-B55C-B92D06495F67}</Project>
+      <Name>Idf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image.vcxproj">
+      <Project>{BECC5613-0FB9-3753-B878-72389AE46499}</Project>
+      <Name>Image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\Gui\ImageGui.vcxproj">
+      <Project>{AFAE2B49-4945-3EAC-AFCB-09AA06D40D5B}</Project>
+      <Name>ImageGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\ImageScripts.vcxproj">
+      <Project>{932FDB2B-2CF6-3881-844E-E2C8C8A4BA01}</Project>
+      <Name>ImageScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Import\App\Import.vcxproj">
+      <Project>{833CB20C-1F92-35C7-A191-A235F59914B6}</Project>
+      <Name>Import</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Import\Gui\ImportGui.vcxproj">
+      <Project>{61D5501F-B5F6-302C-A37F-E149B54745FC}</Project>
+      <Name>ImportGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Import\App\ImportPy.vcxproj">
+      <Project>{290AD96D-C807-3D3D-AAD5-185E18623F43}</Project>
+      <Name>ImportPy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Import\ImportScripts.vcxproj">
+      <Project>{C9E101A3-70E5-3D52-B321-41AB7BBFF358}</Project>
+      <Name>ImportScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Inspection\App\Inspection.vcxproj">
+      <Project>{6AF99D9E-03EF-3AFE-AB09-34DE1ECF11CE}</Project>
+      <Name>Inspection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Inspection\Gui\InspectionGui.vcxproj">
+      <Project>{86AF9C1A-2FF8-316E-B1DD-DC692EC000A9}</Project>
+      <Name>InspectionGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\data\examples\LibPack_Files.vcxproj">
+      <Project>{5F79CC9B-660B-34A1-BAC4-B35E587AE9AF}</Project>
+      <Name>LibPack_Files</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\MEFISTO2.vcxproj">
+      <Project>{60F059EB-3A5C-386A-A45B-9B51ECF67404}</Project>
+      <Name>MEFISTO2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Material\Material.vcxproj">
+      <Project>{32FAB090-DA05-373B-9FE8-7AEF6F0A1E56}</Project>
+      <Name>Material</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Material\MaterialLib.vcxproj">
+      <Project>{7666C4B4-8D83-3F02-8F7D-6EBFD9C64D31}</Project>
+      <Name>MaterialLib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Material\MaterialToolsLib.vcxproj">
+      <Project>{C51116B7-4747-36E9-89CD-4493B6DD9D92}</Project>
+      <Name>MaterialToolsLib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Measure\App\Measure.vcxproj">
+      <Project>{029BAEF8-0639-3B59-877E-09EDAA18EA62}</Project>
+      <Name>Measure</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Mesh\App\Mesh.vcxproj">
+      <Project>{717D69F7-1737-3D75-B344-6AF8E915EBA4}</Project>
+      <Name>Mesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Mesh\Gui\MeshGui.vcxproj">
+      <Project>{0987ABD6-6EEA-3B16-AE7E-76E32A91C03E}</Project>
+      <Name>MeshGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\App\MeshPart.vcxproj">
+      <Project>{031541BC-E76E-3E84-9E46-FBB77091D1E6}</Project>
+      <Name>MeshPart</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\MeshPart\Gui\MeshPartGui.vcxproj">
+      <Project>{077D90A3-5047-3504-9D42-1DB764E688F1}</Project>
+      <Name>MeshPartGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Mesh\MeshScripts.vcxproj">
+      <Project>{510F1877-F82D-3FD2-98CC-3100EB46A6FF}</Project>
+      <Name>MeshScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Mesh\MeshTestData.vcxproj">
+      <Project>{B63E1750-3EB2-3BD4-AAC8-98DBDC0CFF19}</Project>
+      <Name>MeshTestData</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\NETGENPlugin.vcxproj">
+      <Project>{FE2EBB0D-BED5-3070-A4CB-614F7313D406}</Project>
+      <Name>NETGENPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\OpenSCAD\OpenSCAD.vcxproj">
+      <Project>{D5675221-1659-3135-BABD-4E1A9B6D895C}</Project>
+      <Name>OpenSCAD</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\OpenSCAD\OpenSCADTests.vcxproj">
+      <Project>{D482D882-C3EA-3C17-8003-D778E7DE47D2}</Project>
+      <Name>OpenSCADTests</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Part\App\Part.vcxproj">
+      <Project>{0059E387-C5F2-354A-963D-09B77B70DBD7}</Project>
+      <Name>Part</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\PartDesign\App\PartDesign.vcxproj">
+      <Project>{834935D1-E4F2-322A-A51C-E50FBE9614ED}</Project>
+      <Name>PartDesign</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\PartDesign\Gui\PartDesignGui.vcxproj">
+      <Project>{555ABF25-3181-3C41-887F-0B0591A287B5}</Project>
+      <Name>PartDesignGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\PartDesign\PartDesignHole.vcxproj">
+      <Project>{502D55F4-65EB-329A-B16F-519AEA488864}</Project>
+      <Name>PartDesignHole</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\PartDesign\PartDesignScripts.vcxproj">
+      <Project>{92C30E6D-7C1D-3B5B-860C-6D0E2DA6FD2D}</Project>
+      <Name>PartDesignScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Part\Gui\PartGui.vcxproj">
+      <Project>{70791920-4A39-3ED4-BB6F-413A4A1D428F}</Project>
+      <Name>PartGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Part\PartScripts.vcxproj">
+      <Project>{B98A56DF-B9E5-3906-9926-006418BBB52A}</Project>
+      <Name>PartScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Path\App\Path.vcxproj">
+      <Project>{DD5F6749-52BF-3B23-A032-E8DE3D6CB974}</Project>
+      <Name>Path</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Path\Gui\PathGui.vcxproj">
+      <Project>{42BAD7E3-B712-3C3A-A06F-A66AC81D0551}</Project>
+      <Name>PathGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Path\PathScripts.vcxproj">
+      <Project>{DC6F408B-13A4-30B5-9C47-2C49BAC284FF}</Project>
+      <Name>PathScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Path\PathSimulator\App\PathSimulator.vcxproj">
+      <Project>{1D5C54AA-DFD2-3714-AFA2-6C6155705ED7}</Project>
+      <Name>PathSimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Path\PathTests.vcxproj">
+      <Project>{F69B6190-6DF6-31BE-AD7B-87A4A5BE4D01}</Project>
+      <Name>PathTests</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Plot\Plot.vcxproj">
+      <Project>{D27E0D35-3C73-3249-8C64-29B5AAFAC11E}</Project>
+      <Name>Plot</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Points\App\Points.vcxproj">
+      <Project>{DE0350C5-733F-3C64-B5C7-2DD7332989CE}</Project>
+      <Name>Points</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Points\Gui\PointsGui.vcxproj">
+      <Project>{5B80B426-9FD7-350E-99CA-2E7155C1722D}</Project>
+      <Name>PointsGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Points\PointsScripts.vcxproj">
+      <Project>{EBF5F12F-B89C-38D8-9146-86E61E085ADA}</Project>
+      <Name>PointsScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\PreferencePackTemplates\PreferencePackTemplates_data.vcxproj">
+      <Project>{B029AA07-035E-3F9E-AD5C-9C574B056A25}</Project>
+      <Name>PreferencePackTemplates_data</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\PreferencePacks\PreferencePacks_data.vcxproj">
+      <Project>{2F3B903B-A9CD-326B-BA3E-166A5C5B256E}</Project>
+      <Name>PreferencePacks_data</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Test\Gui\QtUnitGui.vcxproj">
+      <Project>{43CC10D9-6AA6-3CCF-8538-4F184B754361}</Project>
+      <Name>QtUnitGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Raytracing\App\Raytracing.vcxproj">
+      <Project>{93242332-2EBF-370B-AFB5-9072363B58BF}</Project>
+      <Name>Raytracing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Raytracing\Gui\RaytracingGui.vcxproj">
+      <Project>{53B91D81-5D25-3805-B790-5852FA9E0FFC}</Project>
+      <Name>RaytracingGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Raytracing\RaytracingScripts.vcxproj">
+      <Project>{10B60D69-C81E-3A0E-8D18-2E8EC59E683A}</Project>
+      <Name>RaytracingScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\ReverseEngineering\App\ReverseEngineering.vcxproj">
+      <Project>{383ED82D-1744-3D70-AC1D-F166273D73E6}</Project>
+      <Name>ReverseEngineering</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui.vcxproj">
+      <Project>{3BA04CE4-1042-3FD0-AE83-6CFA2CF085F2}</Project>
+      <Name>ReverseEngineeringGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\ReverseEngineering\ReverseEngineeringScripts.vcxproj">
+      <Project>{40211DE3-148F-3F76-A0A9-3027B1A5F290}</Project>
+      <Name>ReverseEngineeringScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Robot\App\Robot.vcxproj">
+      <Project>{627FC4C9-C5A0-3388-A167-DB8EEE4544DC}</Project>
+      <Name>Robot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Robot\Gui\RobotGui.vcxproj">
+      <Project>{FE37B3B5-5087-3B4B-89AA-3DE680AB57D1}</Project>
+      <Name>RobotGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Robot\RobotScripts.vcxproj">
+      <Project>{C752BF7F-BCD1-3F1D-90C2-83BEABA9070C}</Project>
+      <Name>RobotScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\SMDS.vcxproj">
+      <Project>{4E4C3C49-ED2C-3F74-B766-E6A33FE27124}</Project>
+      <Name>SMDS</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\SMESH.vcxproj">
+      <Project>{66E25DCA-4B6C-3987-8816-0954BEC17EDA}</Project>
+      <Name>SMESH</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\SMESHDS.vcxproj">
+      <Project>{947CE845-8F7E-30FE-BAE6-068C6136B7F0}</Project>
+      <Name>SMESHDS</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Show\Show.vcxproj">
+      <Project>{1639794D-B8B7-3453-B5E5-8EBA3EEC7C98}</Project>
+      <Name>Show</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Sketcher\App\Sketcher.vcxproj">
+      <Project>{6D828449-A1A7-3B8D-9500-CDE8A8CF6667}</Project>
+      <Name>Sketcher</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Sketcher\Gui\SketcherGui.vcxproj">
+      <Project>{4E9044D3-9D3B-3545-A291-C6E3B1C486EF}</Project>
+      <Name>SketcherGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Sketcher\SketcherScripts.vcxproj">
+      <Project>{D40B28B4-9C43-3A0E-AE01-F14673BA7589}</Project>
+      <Name>SketcherScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Spreadsheet\App\Spreadsheet.vcxproj">
+      <Project>{0794FA97-7222-3BD7-946B-48D03A450A19}</Project>
+      <Name>Spreadsheet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Spreadsheet\Gui\SpreadsheetGui.vcxproj">
+      <Project>{FEC892C9-81E1-389B-85B3-CD0481ADD902}</Project>
+      <Name>SpreadsheetGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Spreadsheet\SpreadsheetScripts.vcxproj">
+      <Project>{F14BDE51-4781-3BC1-B413-472F9C5A0004}</Project>
+      <Name>SpreadsheetScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\App\Start.vcxproj">
+      <Project>{30D0620B-24C1-32F6-9108-DDFF8D7ABB7D}</Project>
+      <Name>Start</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\Gui\StartGui.vcxproj">
+      <Project>{6251DC12-D481-3B36-9237-6F8B595A8083}</Project>
+      <Name>StartGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\StartPage\StartPage.vcxproj">
+      <Project>{48F683BD-B7A7-3C12-87D8-A732D1A39085}</Project>
+      <Name>StartPage</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\StartScripts.vcxproj">
+      <Project>{41238326-2B64-3852-A12B-6A61F3B7F476}</Project>
+      <Name>StartScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Start\StartTests.vcxproj">
+      <Project>{10DE65FE-3304-3CAB-953A-880152293E94}</Project>
+      <Name>StartTests</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\salomesmesh\StdMeshers.vcxproj">
+      <Project>{90FB2877-9432-357F-A27F-A41383BD29FF}</Project>
+      <Name>StdMeshers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Gui\Stylesheets\Stylesheets_data.vcxproj">
+      <Project>{C54AF97A-3B42-3E22-93B2-139CBA54BEEC}</Project>
+      <Name>Stylesheets_data</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Surface\App\Surface.vcxproj">
+      <Project>{BEEB3666-5B92-38F4-AA3A-EAD3FD2A1FF9}</Project>
+      <Name>Surface</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Surface\Gui\SurfaceGui.vcxproj">
+      <Project>{E5D1FED6-ADEA-3830-AC9A-ADFBC3EE5798}</Project>
+      <Name>SurfaceGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Surface\SurfaceScripts.vcxproj">
+      <Project>{80E8E10C-7267-33D6-95CB-B31336DD12CF}</Project>
+      <Name>SurfaceScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\TechDraw\TDTestTarget.vcxproj">
+      <Project>{9EA2A676-EAEB-3954-9185-E14360204723}</Project>
+      <Name>TDTestTarget</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\TechDraw\App\TechDraw.vcxproj">
+      <Project>{C31A23F9-3310-391C-9136-8503E9F3EC51}</Project>
+      <Name>TechDraw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\TechDraw\Gui\TechDrawGui.vcxproj">
+      <Project>{7F0DE474-A281-33F3-A2E5-AEFD46646965}</Project>
+      <Name>TechDrawGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\TechDraw\TechDraw_Data.vcxproj">
+      <Project>{907E0B59-C15B-3A04-8FED-8E1B803CFA3F}</Project>
+      <Name>TechDraw_Data</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Test\Test.vcxproj">
+      <Project>{C1A29505-E280-3B69-851D-3DF3621AD23F}</Project>
+      <Name>Test</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Tux\Tux.vcxproj">
+      <Project>{345AF16B-438C-38B2-9E4F-3F4B411C1C13}</Project>
+      <Name>Tux</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Web\App\Web.vcxproj">
+      <Project>{9256D345-E8F0-309E-8B9D-057E1EA1150E}</Project>
+      <Name>Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Web\Gui\WebGui.vcxproj">
+      <Project>{808CD9BA-0C84-3642-9D2C-6F346C967F85}</Project>
+      <Name>WebGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Web\WebScripts.vcxproj">
+      <Project>{D85D714E-F730-39EE-B0A8-CB664B36959F}</Project>
+      <Name>WebScripts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\PartDesign\WizardShaft.vcxproj">
+      <Project>{EDF6E2CA-2F73-379E-BC7A-125442217CE8}</Project>
+      <Name>WizardShaft</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Path\libarea\area.vcxproj">
+      <Project>{E8C91941-5DD3-3773-A40F-492C284861DD}</Project>
+      <Name>area</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Path\libarea\area-native.vcxproj">
+      <Project>{5E867D0C-6D86-3F41-B3B4-4FFFE3BF491F}</Project>
+      <Name>area-native</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\3rdParty\lazy_loader\lazy_loader.vcxproj">
+      <Project>{A0DD9F23-300B-36B3-9D74-256D0235FFD0}</Project>
+      <Name>lazy_loader</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BECC5613-0FB9-3753-B878-72389AE46499}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Image</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\Image\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Image.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Image_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\Image\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Image.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Image</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\Image\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Image.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Image</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\Mod\Image\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Image.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Image</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\include_Debug;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtCore" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/./mkspecs/win32-msvc" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtXml" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FC_DEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;NOMINMAX;STRSAFE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLX_GLXEXT_LEGACY;_OCC64;FCAppImage;QT_CORE_LIB;QT_XML_LIB;CMAKE_INTDIR="Debug";Image_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;FC_DEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;NOMINMAX;STRSAFE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLX_GLXEXT_LEGACY;_OCC64;FCAppImage;QT_CORE_LIB;QT_XML_LIB;CMAKE_INTDIR=\"Debug\";Image_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\include_Debug;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\include_Debug;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target Image</Message>
+      <Command>setlocal
+cd C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Image/App/CMakeFiles/Image_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\App\Debug\FreeCADApp_d.lib;..\..\..\Base\Debug\FreeCADBase_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\xerces-c_3D.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\zlibd.lib;MSVCRTD.lib;MSVCPRTD.lib;Rpcrt4.lib;version.lib;vcruntimed.lib;ucrtd.lib;concrtd.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\libs\python38_d.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_filesystem-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_program_options-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_regex-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_system-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_thread-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_date_time-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_chrono-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_atomic-vc141-mt-gd-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Xmld.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Image/App/Debug/Image_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/Image/Image_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\include_Release;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtCore" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/./mkspecs/win32-msvc" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtXml" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;_OCC64;FCAppImage;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;CMAKE_INTDIR="Release";Image_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"G:/OCC/OCC-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);HAVE_OPENGL_EXT;HAVE_RAPIDJSON;VTK_OPENGL2_BACKEND;_OCC64;FCAppImage;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;CMAKE_INTDIR=\"Release\";Image_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\include_Release;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\include_Release;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target Image</Message>
+      <Command>setlocal
+cd C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Image/App/CMakeFiles/Image_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\App\Release\FreeCADApp.lib;..\..\..\Base\Release\FreeCADBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\xerces-c_3.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\libs\python38.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_filesystem-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_program_options-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_regex-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_system-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_thread-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_date_time-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_chrono-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_atomic-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Xml.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Image/App/Release/Image.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/Image/Image.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\include_MinSizeRel;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtCore" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/./mkspecs/win32-msvc" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtXml"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;FCAppImage;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;CMAKE_INTDIR="MinSizeRel";Image_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;FCAppImage;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;CMAKE_INTDIR=\"MinSizeRel\";Image_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\include_MinSizeRel;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\include_MinSizeRel;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target Image</Message>
+      <Command>setlocal
+cd C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Image/App/CMakeFiles/Image_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\App\MinSizeRel\FreeCADApp.lib;..\..\..\Base\MinSizeRel\FreeCADBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\xerces-c_3.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\libs\python38.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_filesystem-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_program_options-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_regex-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_system-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_thread-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_date_time-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_chrono-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_atomic-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Xml.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Image/App/MinSizeRel/Image.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/Image/MinSizeRel/Image.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\include_RelWithDebInfo;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtCore" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/./mkspecs/win32-msvc" /external:I "C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/include/QtXml"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;FCAppImage;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;CMAKE_INTDIR="RelWithDebInfo";Image_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;BOOST_NO_CXX98_FUNCTION_BASE;PYCXX_6_2_COMPATIBILITY;_OCC64;FCAppImage;QT_CORE_LIB;QT_NO_DEBUG;QT_XML_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";Image_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\include_RelWithDebInfo;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\include_RelWithDebInfo;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src;C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtCore;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\.\mkspecs\win32-msvc;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target Image</Message>
+      <Command>setlocal
+cd C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Image/App/CMakeFiles/Image_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\App\RelWithDebInfo\FreeCADApp.lib;..\..\..\Base\RelWithDebInfo\FreeCADBase.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\xerces-c_3.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\bin\libs\python38.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_filesystem-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_program_options-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_regex-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_system-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_thread-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_date_time-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_chrono-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\boost_atomic-vc141-mt-x64-1_67.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Xml.lib;C:\Users\evanb\FreeCADStuff\LibPack-OCC76-V2\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib;C:/Users/evanb/FreeCADStuff/LibPack-OCC76-V2/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Image/App/RelWithDebInfo/Image.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/Mod/Image/RelWithDebInfo/Image.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Image\App\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Image/App/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Image/App/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Image/App/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Image/App/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Image/App/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Image/App/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD/src/Mod/Image/App/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadOriginal/FreeCAD -BC:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries --check-stamp-file C:/Users/evanb/FreeCADStuff/FreeCadSource/FreeCadBinaries/src/Mod/Image/App/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Image\App\ImageBase.cpp" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Image\App\ImageBase.h" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Image\App\ImagePlane.cpp" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Image\App\ImagePlane.h" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Image\App\PreCompiled.cpp" />
+    <ClInclude Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Image\App\PreCompiled.h" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadOriginal\FreeCAD\src\Mod\Image\App\AppImage.cpp" />
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Mod\Image\App\Image_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\ZERO_CHECK.vcxproj">
+      <Project>{1D5899A6-68A2-3143-8BC0-B6A4DDD26DFD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\App\FreeCADApp.vcxproj">
+      <Project>{D9E1B32B-6217-3196-AAB7-8C8250CDC6A6}</Project>
+      <Name>FreeCADApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evanb\FreeCADStuff\FreeCadSource\FreeCadBinaries\src\Base\FreeCADBase.vcxproj">
+      <Project>{D382A700-C713-35CE-8591-4A86563D2B58}</Project>
+      <Name>FreeCADBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
